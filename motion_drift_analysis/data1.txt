@@ -1,0 +1,5776 @@
+A: 1.115031 B: 2.077742 C: 0.3861108
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.104832 B: 2.067357 C: 0.383578
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.114767 B: 2.077126 C: 0.3839352
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.121019 B: 2.086931 C: 0.3859685
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.125007 B: 2.092095 C: 0.3869755
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.119933 B: 2.085174 C: 0.3856362
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.125475 B: 2.092868 C: 0.3856287
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.131773 B: 2.100444 C: 0.3871648
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.130754 B: 2.100837 C: 0.3873193
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122881 B: 2.089959 C: 0.3850515
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.124547 B: 2.091031 C: 0.3856464
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.126862 B: 2.095438 C: 0.386474
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.123549 B: 2.091129 C: 0.3857792
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109815 B: 2.073895 C: 0.3820634
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108067 B: 2.069151 C: 0.3805887
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.1057 B: 2.065657 C: 0.3803982
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.096772 B: 2.054705 C: 0.3787235
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.10182 B: 2.061528 C: 0.3788023
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.1125 B: 2.072356 C: 0.3821503
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.115265 B: 2.076191 C: 0.3831483
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108287 B: 2.067898 C: 0.3811642
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.116234 B: 2.075933 C: 0.3831069
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.124841 B: 2.083995 C: 0.3852208
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.127372 B: 2.084867 C: 0.3858042
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.118482 B: 2.072645 C: 0.383202
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122323 B: 2.074847 C: 0.3843439
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.127485 B: 2.078717 C: 0.3854951
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.126095 B: 2.073974 C: 0.3849951
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113084 B: 2.056861 C: 0.3809621
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106241 B: 2.051758 C: 0.3813941
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.102903 B: 2.048912 C: 0.3817388
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.093781 B: 2.03795 C: 0.3803085
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.099759 B: 2.044959 C: 0.3822615
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106483 B: 2.056015 C: 0.3847004
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.110781 B: 2.060839 C: 0.3848948
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.104243 B: 2.052619 C: 0.3830412
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109411 B: 2.061548 C: 0.3850208
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.112939 B: 2.067758 C: 0.3857394
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.115305 B: 2.069005 C: 0.3853089
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.105117 B: 2.056331 C: 0.3833074
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.10589 B: 2.058263 C: 0.3840563
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108331 B: 2.059617 C: 0.38489
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106171 B: 2.0575 C: 0.3843173
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.093611 B: 2.039873 C: 0.3810385
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.09185 B: 2.036259 C: 0.3790949
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.088711 B: 2.03368 C: 0.3774893
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.081465 B: 2.023204 C: 0.3756399
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.087074 B: 2.032876 C: 0.377297
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.099037 B: 2.046961 C: 0.3783332
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.100767 B: 2.05112 C: 0.3782488
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.093828 B: 2.042867 C: 0.3762899
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.101934 B: 2.050976 C: 0.3782535
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108004 B: 2.06005 C: 0.3803122
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.11103 B: 2.061308 C: 0.3799375
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.102382 B: 2.04973 C: 0.3780191
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106809 B: 2.051779 C: 0.3772615
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109611 B: 2.056275 C: 0.3779657
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106771 B: 2.051355 C: 0.3772063
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.11855 B: 2.063273 C: 0.378197
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.129493 B: 2.076428 C: 0.379672
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.13917 B: 2.087168 C: 0.3825113
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.13827 B: 2.084718 C: 0.3812158
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.143383 B: 2.094787 C: 0.3820903
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.154965 B: 2.109106 C: 0.3833609
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.159515 B: 2.114384 C: 0.3833822
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.154655 B: 2.106764 C: 0.3808658
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.160974 B: 2.115977 C: 0.3815973
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.168029 B: 2.123393 C: 0.3823083
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.168321 B: 2.122475 C: 0.3826233
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.160276 B: 2.110796 C: 0.3809719
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.165235 B: 2.116009 C: 0.3797547
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.163547 B: 2.115529 C: 0.3787208
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.159859 B: 2.11019 C: 0.3776418
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.166758 B: 2.122575 C: 0.3800201
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.177216 B: 2.136393 C: 0.3830636
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.183373 B: 2.145285 C: 0.3839091
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181065 B: 2.141143 C: 0.384286
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.184492 B: 2.148485 C: 0.3847736
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.192915 B: 2.159604 C: 0.3857253
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.196335 B: 2.165805 C: 0.3856876
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.190851 B: 2.156636 C: 0.3842338
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199786 B: 2.166959 C: 0.3858256
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.205616 B: 2.172839 C: 0.3887175
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207625 B: 2.17338 C: 0.3890344
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198503 B: 2.160906 C: 0.3862242
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.200306 B: 2.16387 C: 0.3871717
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.20173 B: 2.167618 C: 0.3881519
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197694 B: 2.162602 C: 0.3875182
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.206547 B: 2.175042 C: 0.3903217
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.218603 B: 2.191305 C: 0.3936214
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225961 B: 2.199073 C: 0.3956167
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.223916 B: 2.194997 C: 0.3951568
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.233003 B: 2.204508 C: 0.3975452
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.241748 B: 2.216425 C: 0.4001767
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.244298 B: 2.221341 C: 0.4013794
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.238473 B: 2.212202 C: 0.399996
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.241389 B: 2.215949 C: 0.3998063
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.243686 B: 2.219127 C: 0.3998049
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.243515 B: 2.217209 C: 0.3996039
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.232959 B: 2.203622 C: 0.3974562
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.231425 B: 2.201174 C: 0.3971931
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.229491 B: 2.200866 C: 0.398398
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.226082 B: 2.195186 C: 0.3979505
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.235362 B: 2.204334 C: 0.3964886
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.248325 B: 2.219269 C: 0.3985503
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.254338 B: 2.226084 C: 0.3996994
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.251637 B: 2.22243 C: 0.3987657
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.260763 B: 2.232864 C: 0.4024688
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.268153 B: 2.241963 C: 0.4064342
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.272969 B: 2.245013 C: 0.4086301
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.265245 B: 2.236553 C: 0.4064076
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.270633 B: 2.241511 C: 0.4064451
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.274347 B: 2.245476 C: 0.4078481
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.274321 B: 2.245105 C: 0.4069377
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.26366 B: 2.230288 C: 0.4039225
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.263323 B: 2.227547 C: 0.403062
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.2653 B: 2.228558 C: 0.4034198
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.260496 B: 2.220525 C: 0.4022369
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.265954 B: 2.227828 C: 0.404512
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.273264 B: 2.238883 C: 0.4072782
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.27774 B: 2.245646 C: 0.4089115
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.274373 B: 2.241435 C: 0.4081759
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278946 B: 2.250618 C: 0.4119003
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.288552 B: 2.261224 C: 0.4145906
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.290203 B: 2.264993 C: 0.4146331
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281255 B: 2.253667 C: 0.4136025
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281578 B: 2.257003 C: 0.4143744
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.285142 B: 2.261411 C: 0.4154796
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.282387 B: 2.257741 C: 0.4150992
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.271914 B: 2.243989 C: 0.4122625
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.269576 B: 2.240603 C: 0.4122378
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.266627 B: 2.236793 C: 0.4133712
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.261574 B: 2.230146 C: 0.4120384
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.270024 B: 2.238138 C: 0.4124119
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.280397 B: 2.251478 C: 0.4147079
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.283242 B: 2.257148 C: 0.4169864
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278742 B: 2.251356 C: 0.4158595
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.286007 B: 2.261397 C: 0.4178212
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.293843 B: 2.272358 C: 0.4200349
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296308 B: 2.275131 C: 0.4198574
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.289489 B: 2.265596 C: 0.4175408
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.292165 B: 2.268732 C: 0.417406
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296972 B: 2.272984 C: 0.4174344
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294189 B: 2.270832 C: 0.4171035
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.282032 B: 2.255913 C: 0.413697
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.28033 B: 2.251875 C: 0.4124749
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278955 B: 2.247739 C: 0.4113871
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.273883 B: 2.240522 C: 0.4100328
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.280879 B: 2.248596 C: 0.4139717
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.286954 B: 2.257864 C: 0.4183245
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.291108 B: 2.261717 C: 0.4190846
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.287143 B: 2.255927 C: 0.418424
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.293041 B: 2.266574 C: 0.4189531
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.302268 B: 2.275539 C: 0.4208943
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.305108 B: 2.278724 C: 0.4215153
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.298124 B: 2.269174 C: 0.4202173
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.298795 B: 2.271806 C: 0.4191464
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.304167 B: 2.275617 C: 0.418569
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.301858 B: 2.272326 C: 0.4169684
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.289904 B: 2.256398 C: 0.413408
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.286917 B: 2.254071 C: 0.4121364
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.287107 B: 2.253867 C: 0.4122533
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278999 B: 2.245813 C: 0.4107547
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.284257 B: 2.253748 C: 0.4127872
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294519 B: 2.264891 C: 0.4141078
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.298079 B: 2.268943 C: 0.4151504
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.293219 B: 2.263492 C: 0.413984
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296005 B: 2.272021 C: 0.414138
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.300811 B: 2.281578 C: 0.4158448
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.301556 B: 2.282806 C: 0.4161774
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.293877 B: 2.272631 C: 0.4135087
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.292508 B: 2.271751 C: 0.4145232
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296051 B: 2.2772 C: 0.4146191
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.292652 B: 2.273777 C: 0.4143496
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.280448 B: 2.257702 C: 0.4116873
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278091 B: 2.256795 C: 0.4110311
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.277943 B: 2.257167 C: 0.4096664
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.270444 B: 2.248861 C: 0.4087424
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.274982 B: 2.254339 C: 0.4085246
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.283455 B: 2.263348 C: 0.4091306
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.287124 B: 2.268424 C: 0.408889
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281204 B: 2.260238 C: 0.4074618
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.282159 B: 2.265557 C: 0.4073634
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.288168 B: 2.2737 C: 0.4064409
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.28924 B: 2.277084 C: 0.4067097
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.280043 B: 2.265707 C: 0.4045656
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.279971 B: 2.26717 C: 0.4052937
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.283107 B: 2.27094 C: 0.4063618
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281381 B: 2.267235 C: 0.4059066
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.269547 B: 2.251538 C: 0.4023713
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.265892 B: 2.24861 C: 0.4040582
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.266965 B: 2.247129 C: 0.4035214
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.260311 B: 2.239121 C: 0.4016436
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.266669 B: 2.24869 C: 0.4041917
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.275188 B: 2.259713 C: 0.4071224
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.279307 B: 2.265916 C: 0.4087523
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296746 B: 2.290292 C: 0.4119761
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.310738 B: 2.309974 C: 0.4143777
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.314976 B: 2.317065 C: 0.415925
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.325139 B: 2.332015 C: 0.4175333
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.333997 B: 2.347189 C: 0.4199283
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.333724 B: 2.348135 C: 0.4194528
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.323649 B: 2.335305 C: 0.4166601
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.326128 B: 2.335404 C: 0.4144422
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.326951 B: 2.3364 C: 0.4157396
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.322154 B: 2.329708 C: 0.4143014
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.32705 B: 2.339138 C: 0.4163304
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.334276 B: 2.349034 C: 0.4175906
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.338231 B: 2.354125 C: 0.4199272
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.333397 B: 2.348284 C: 0.4187883
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.335938 B: 2.351972 C: 0.420498
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.343389 B: 2.359601 C: 0.421298
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.343358 B: 2.359258 C: 0.4208179
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.33469 B: 2.348129 C: 0.4189671
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.335637 B: 2.350312 C: 0.4198776
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.338478 B: 2.354687 C: 0.4210107
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.33418 B: 2.349084 C: 0.4197029
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.323056 B: 2.333311 C: 0.4169317
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.31972 B: 2.330786 C: 0.4153891
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.318673 B: 2.328309 C: 0.4141911
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.312146 B: 2.320393 C: 0.4119196
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.319915 B: 2.327707 C: 0.414114
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.330069 B: 2.339493 C: 0.4169041
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.33547 B: 2.345324 C: 0.4184228
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.330496 B: 2.33808 C: 0.4173681
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.333034 B: 2.345042 C: 0.4192363
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.341728 B: 2.355843 C: 0.4214667
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.340077 B: 2.357278 C: 0.4221197
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.332278 B: 2.346323 C: 0.4196248
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.334687 B: 2.350315 C: 0.4209279
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.339837 B: 2.355912 C: 0.4222636
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.335393 B: 2.352676 C: 0.4202106
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.324133 B: 2.336133 C: 0.4176486
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.320411 B: 2.334209 C: 0.4176672
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.317612 B: 2.329743 C: 0.4177098
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.308302 B: 2.318835 C: 0.4154202
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.318375 B: 2.330129 C: 0.4177943
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.32663 B: 2.340369 C: 0.4206014
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.332188 B: 2.343417 C: 0.4210461
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.328631 B: 2.337929 C: 0.4201185
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.332093 B: 2.342651 C: 0.421955
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.336677 B: 2.351341 C: 0.4240677
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.337116 B: 2.351743 C: 0.423692
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.328517 B: 2.340229 C: 0.42126
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.327272 B: 2.340691 C: 0.4209278
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.330637 B: 2.345892 C: 0.4220517
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.328238 B: 2.342325 C: 0.4224253
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.314589 B: 2.325575 C: 0.4191507
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.310066 B: 2.321989 C: 0.4172152
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.309851 B: 2.320744 C: 0.4180122
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.303855 B: 2.310531 C: 0.4147021
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.304437 B: 2.31281 C: 0.41682
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.311208 B: 2.321801 C: 0.4208548
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.313058 B: 2.325449 C: 0.4234061
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.306707 B: 2.317605 C: 0.4222954
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.314151 B: 2.325931 C: 0.4225669
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.321096 B: 2.335377 C: 0.4243563
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.323317 B: 2.338189 C: 0.4238173
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.315528 B: 2.327666 C: 0.4218122
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.31696 B: 2.330075 C: 0.4225605
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.316936 B: 2.332542 C: 0.4222756
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.314965 B: 2.329167 C: 0.4217883
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.303377 B: 2.31224 C: 0.4186619
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.30189 B: 2.308933 C: 0.4183694
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.299805 B: 2.306051 C: 0.4170551
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.292456 B: 2.296157 C: 0.4153997
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.296266 B: 2.301184 C: 0.4171639
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.305391 B: 2.312296 C: 0.4197019
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.307877 B: 2.315344 C: 0.4219373
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.302673 B: 2.308647 C: 0.419348
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.307988 B: 2.314692 C: 0.4199712
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.314343 B: 2.323543 C: 0.4233217
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.315448 B: 2.324436 C: 0.4239905
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.307732 B: 2.313647 C: 0.4220532
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.309309 B: 2.31528 C: 0.4244038
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.307999 B: 2.316572 C: 0.4267151
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.30447 B: 2.311558 C: 0.4254077
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.29218 B: 2.295935 C: 0.4220551
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.290813 B: 2.292525 C: 0.4208382
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.289176 B: 2.289389 C: 0.4208399
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.282153 B: 2.27863 C: 0.4192662
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.286309 B: 2.284099 C: 0.4211206
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.29399 B: 2.29097 C: 0.4221455
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.299415 B: 2.29571 C: 0.4232647
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.295253 B: 2.288729 C: 0.4220014
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.301465 B: 2.297984 C: 0.4236935
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.305138 B: 2.306197 C: 0.4256019
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.30633 B: 2.306669 C: 0.4259526
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.297886 B: 2.296147 C: 0.4232157
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.300558 B: 2.298763 C: 0.4227208
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.302989 B: 2.299037 C: 0.4235462
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.29992 B: 2.295338 C: 0.4229289
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.286901 B: 2.278301 C: 0.4197092
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.283578 B: 2.274651 C: 0.4178187
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281858 B: 2.271726 C: 0.4162556
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.275407 B: 2.262488 C: 0.4144371
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.28075 B: 2.269011 C: 0.4178389
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.290126 B: 2.280358 C: 0.4206586
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294859 B: 2.285693 C: 0.4200928
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.288908 B: 2.278313 C: 0.4178612
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294662 B: 2.284971 C: 0.4204266
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.298547 B: 2.292672 C: 0.4241555
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.299087 B: 2.293905 C: 0.4259001
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.29011 B: 2.282201 C: 0.4238065
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294673 B: 2.284801 C: 0.4230303
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.294998 B: 2.287192 C: 0.4236286
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.291226 B: 2.282556 C: 0.4219998
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.27897 B: 2.265667 C: 0.4189061
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.276898 B: 2.263681 C: 0.4171532
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.274473 B: 2.260424 C: 0.4168123
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.268165 B: 2.252301 C: 0.4150449
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.270017 B: 2.258564 C: 0.4166612
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.276307 B: 2.268511 C: 0.4188225
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.278394 B: 2.272452 C: 0.4197676
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.272819 B: 2.26554 C: 0.4184137
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.277427 B: 2.271069 C: 0.418381
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.280288 B: 2.277587 C: 0.4185565
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.281346 B: 2.277466 C: 0.4186579
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.271449 B: 2.265137 C: 0.4162692
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.27461 B: 2.268053 C: 0.4168554
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.27803 B: 2.273812 C: 0.417643
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.275876 B: 2.270182 C: 0.4170007
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.262712 B: 2.253461 C: 0.4136633
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.262934 B: 2.250067 C: 0.4117694
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.261281 B: 2.246592 C: 0.4123668
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.25369 B: 2.235699 C: 0.4096075
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.259093 B: 2.241989 C: 0.4114742
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.265686 B: 2.251773 C: 0.4139809
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.268717 B: 2.256417 C: 0.4141918
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.262008 B: 2.247428 C: 0.412944
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.26553 B: 2.253685 C: 0.4162497
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.272323 B: 2.260904 C: 0.4184394
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.272772 B: 2.262233 C: 0.4200024
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.262144 B: 2.249062 C: 0.4172208
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.265604 B: 2.252095 C: 0.4196598
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.269559 B: 2.256042 C: 0.4197508
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.266745 B: 2.25257 C: 0.4193746
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.253497 B: 2.235178 C: 0.4157539
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.252677 B: 2.231138 C: 0.4157915
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.251338 B: 2.228337 C: 0.4158726
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.243166 B: 2.217851 C: 0.4142108
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.247042 B: 2.225879 C: 0.414286
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.25306 B: 2.236983 C: 0.4162954
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.257414 B: 2.242403 C: 0.4181116
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.251211 B: 2.234514 C: 0.4171956
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.257774 B: 2.242571 C: 0.4167888
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.261389 B: 2.246583 C: 0.4179623
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.26267 B: 2.24865 C: 0.4161669
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.253565 B: 2.236423 C: 0.4146203
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.256487 B: 2.239456 C: 0.4134605
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.25898 B: 2.242355 C: 0.4139019
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.254421 B: 2.238297 C: 0.4138908
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.241503 B: 2.220776 C: 0.4097946
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.241123 B: 2.219086 C: 0.4096205
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.241209 B: 2.218278 C: 0.4096159
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.232673 B: 2.207865 C: 0.4079221
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.238579 B: 2.213095 C: 0.4113248
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.245486 B: 2.221575 C: 0.4126884
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.248796 B: 2.22628 C: 0.4149379
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.244621 B: 2.219877 C: 0.4136959
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.252444 B: 2.225633 C: 0.4169966
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.259944 B: 2.232778 C: 0.4192006
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.261804 B: 2.234153 C: 0.4189532
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.254374 B: 2.223617 C: 0.4171791
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.255406 B: 2.22479 C: 0.416527
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.254592 B: 2.224237 C: 0.4170966
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.25085 B: 2.219193 C: 0.4163237
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.237813 B: 2.202529 C: 0.4130416
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.236662 B: 2.197133 C: 0.412577
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.236263 B: 2.196534 C: 0.4124212
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.230438 B: 2.187103 C: 0.4099551
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.233807 B: 2.195447 C: 0.4137008
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.23917 B: 2.203627 C: 0.4164439
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.24254 B: 2.207221 C: 0.4178351
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.237072 B: 2.198232 C: 0.4159703
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.2393 B: 2.204684 C: 0.4179757
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.242934 B: 2.212333 C: 0.4200815
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.243425 B: 2.21446 C: 0.4197216
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.234305 B: 2.203312 C: 0.4177798
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.23488 B: 2.203947 C: 0.4200533
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.23766 B: 2.207084 C: 0.4223985
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.234113 B: 2.203122 C: 0.4219752
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.220519 B: 2.185616 C: 0.4188055
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219155 B: 2.182494 C: 0.4182945
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219549 B: 2.181683 C: 0.419126
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.212145 B: 2.171537 C: 0.4165243
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.216786 B: 2.177235 C: 0.4198678
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.222876 B: 2.186638 C: 0.4211645
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225863 B: 2.192473 C: 0.4223899
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219034 B: 2.184695 C: 0.420382
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225704 B: 2.190253 C: 0.4206563
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.230778 B: 2.196166 C: 0.4223534
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.230404 B: 2.196111 C: 0.4225704
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.222396 B: 2.18418 C: 0.419752
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.220598 B: 2.18274 C: 0.4221086
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.221492 B: 2.186268 C: 0.4231781
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.217339 B: 2.179969 C: 0.4225921
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.204482 B: 2.162214 C: 0.4193901
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.202653 B: 2.158949 C: 0.4175167
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203637 B: 2.157459 C: 0.4159928
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.195945 B: 2.149234 C: 0.4134102
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.200867 B: 2.155255 C: 0.4151935
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.208365 B: 2.166135 C: 0.4176086
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.210431 B: 2.170002 C: 0.4177107
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203819 B: 2.162559 C: 0.4157824
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209115 B: 2.171736 C: 0.4161735
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.215185 B: 2.182072 C: 0.4167063
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.215798 B: 2.181935 C: 0.4160002
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207993 B: 2.171486 C: 0.4138713
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.211766 B: 2.172635 C: 0.4129992
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.215009 B: 2.174758 C: 0.413549
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.212448 B: 2.170714 C: 0.4135287
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199946 B: 2.153975 C: 0.4099731
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198382 B: 2.152783 C: 0.4079188
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.196277 B: 2.149993 C: 0.4062069
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.189517 B: 2.140885 C: 0.4042918
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.194702 B: 2.149302 C: 0.4042232
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.202482 B: 2.158419 C: 0.4061854
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203229 B: 2.160944 C: 0.4059097
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197431 B: 2.153795 C: 0.4051436
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.202326 B: 2.161258 C: 0.4047479
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.206938 B: 2.167539 C: 0.4047512
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207919 B: 2.169348 C: 0.4046746
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197658 B: 2.156663 C: 0.401658
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199539 B: 2.159823 C: 0.4009907
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.201942 B: 2.163802 C: 0.4017373
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199213 B: 2.158184 C: 0.4009339
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.185515 B: 2.140825 C: 0.3976124
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.18437 B: 2.138959 C: 0.3985589
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182387 B: 2.13734 C: 0.3973209
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.176389 B: 2.128929 C: 0.395005
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181211 B: 2.136955 C: 0.3971047
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.186714 B: 2.146151 C: 0.3995369
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.188968 B: 2.149377 C: 0.400667
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182495 B: 2.141692 C: 0.3987308
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.18651 B: 2.143478 C: 0.3989015
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.190715 B: 2.147273 C: 0.399331
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.191676 B: 2.148581 C: 0.3987209
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181811 B: 2.135579 C: 0.3964008
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.180486 B: 2.135224 C: 0.3969354
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182854 B: 2.137876 C: 0.3977859
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.178122 B: 2.131031 C: 0.3971024
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.165153 B: 2.114188 C: 0.3939185
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.165527 B: 2.113799 C: 0.3921953
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.162892 B: 2.112654 C: 0.3918035
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.153674 B: 2.101741 C: 0.3892288
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.15853 B: 2.107819 C: 0.3911865
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.166728 B: 2.11806 C: 0.3937393
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.168348 B: 2.12142 C: 0.3949907
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.161369 B: 2.11314 C: 0.39384
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.165972 B: 2.118697 C: 0.3954946
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.171062 B: 2.126414 C: 0.3973792
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.17184 B: 2.128038 C: 0.3987468
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.162787 B: 2.115473 C: 0.3959624
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.164782 B: 2.116569 C: 0.3984486
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.166148 B: 2.118419 C: 0.3985561
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.161053 B: 2.112844 C: 0.3988606
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.148101 B: 2.096039 C: 0.3960156
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.14336 B: 2.091176 C: 0.3950228
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.143901 B: 2.090879 C: 0.3945585
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.135899 B: 2.080441 C: 0.3926387
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.140125 B: 2.086238 C: 0.3942623
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.149056 B: 2.09878 C: 0.3979397
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.153373 B: 2.104191 C: 0.3992056
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.147691 B: 2.096872 C: 0.3980119
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.150982 B: 2.101659 C: 0.3979952
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.156389 B: 2.110091 C: 0.3995568
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.155679 B: 2.111347 C: 0.3979553
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.146651 B: 2.099293 C: 0.3959903
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.147768 B: 2.100574 C: 0.3966912
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.150842 B: 2.102921 C: 0.3975674
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.14673 B: 2.100148 C: 0.3961869
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.13371 B: 2.08253 C: 0.3927765
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.134394 B: 2.083339 C: 0.3916111
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132514 B: 2.08159 C: 0.3914442
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.125572 B: 2.072003 C: 0.3890056
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.130646 B: 2.078481 C: 0.3910297
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.135208 B: 2.084668 C: 0.3943126
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.127299 B: 2.074399 C: 0.3932067
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.128758 B: 2.076987 C: 0.3942035
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.128013 B: 2.075092 C: 0.3941175
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.11859 B: 2.063479 C: 0.3917711
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.119429 B: 2.064255 C: 0.3922032
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.119024 B: 2.063021 C: 0.3916968
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113172 B: 2.056756 C: 0.3901444
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.100896 B: 2.040248 C: 0.3871564
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097349 B: 2.038523 C: 0.3868743
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.093383 B: 2.036265 C: 0.3866768
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.086251 B: 2.027586 C: 0.3857641
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.090312 B: 2.036384 C: 0.387293
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097779 B: 2.047966 C: 0.3894916
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.100589 B: 2.05202 C: 0.3904437
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.09409 B: 2.043315 C: 0.388427
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.098022 B: 2.047648 C: 0.3903335
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.103493 B: 2.054721 C: 0.3910504
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.104904 B: 2.055303 C: 0.3906383
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.095509 B: 2.043337 C: 0.3893064
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097247 B: 2.04851 C: 0.3897519
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097474 B: 2.051 C: 0.3916062
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.094261 B: 2.047789 C: 0.3908845
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.082258 B: 2.032299 C: 0.3877216
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.07819 B: 2.026946 C: 0.3886783
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.075118 B: 2.022946 C: 0.3896572
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.066606 B: 2.012447 C: 0.387863
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.073822 B: 2.020701 C: 0.3895896
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.083632 B: 2.03116 C: 0.3919972
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.086554 B: 2.035632 C: 0.3921672
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.080441 B: 2.028126 C: 0.391083
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.086785 B: 2.035418 C: 0.3928479
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.091262 B: 2.043826 C: 0.3948107
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.094302 B: 2.046948 C: 0.3953922
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.085911 B: 2.035887 C: 0.3934321
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.086304 B: 2.036726 C: 0.3956818
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.089651 B: 2.040656 C: 0.3968374
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.085569 B: 2.037077 C: 0.3955781
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.095404 B: 2.047533 C: 0.4004802
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.107191 B: 2.062114 C: 0.4058533
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.114699 B: 2.073513 C: 0.4086466
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.115542 B: 2.072052 C: 0.4081539
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.127358 B: 2.086923 C: 0.4114281
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.138873 B: 2.100259 C: 0.4146673
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.14272 B: 2.106383 C: 0.4153137
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.138713 B: 2.101332 C: 0.414459
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.140868 B: 2.103033 C: 0.4161582
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.14476 B: 2.111702 C: 0.4167814
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.142619 B: 2.110137 C: 0.4178284
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132584 B: 2.096769 C: 0.4152471
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.133769 B: 2.097895 C: 0.4170274
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.135734 B: 2.101313 C: 0.4178329
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132717 B: 2.097717 C: 0.4170682
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.119423 B: 2.079143 C: 0.4137368
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.117648 B: 2.074193 C: 0.4131062
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.117573 B: 2.072384 C: 0.4127213
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109383 B: 2.061074 C: 0.410703
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113199 B: 2.067976 C: 0.4103245
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.11839 B: 2.076967 C: 0.41196
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.119956 B: 2.078801 C: 0.4136379
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113071 B: 2.071621 C: 0.4119255
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.114837 B: 2.07591 C: 0.4131469
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122552 B: 2.08407 C: 0.414786
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.124204 B: 2.084796 C: 0.4149519
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.115167 B: 2.073093 C: 0.4126403
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.116919 B: 2.07223 C: 0.4130298
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.117031 B: 2.073572 C: 0.4124399
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113927 B: 2.068373 C: 0.4124376
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122501 B: 2.078009 C: 0.4147673
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.133333 B: 2.090533 C: 0.4177625
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.141129 B: 2.09904 C: 0.4197169
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.138965 B: 2.097582 C: 0.4200322
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.147182 B: 2.106034 C: 0.4220994
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.15238 B: 2.114639 C: 0.4244609
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.156909 B: 2.118072 C: 0.424573
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.152429 B: 2.110048 C: 0.4232013
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.15595 B: 2.117765 C: 0.4247156
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.164204 B: 2.127475 C: 0.4264517
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.164634 B: 2.130321 C: 0.427571
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.154639 B: 2.117467 C: 0.4249892
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.156588 B: 2.119675 C: 0.4237936
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.158774 B: 2.12219 C: 0.4228646
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.155949 B: 2.118844 C: 0.4217494
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.142157 B: 2.10064 C: 0.4176691
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.13938 B: 2.099535 C: 0.4159813
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.137366 B: 2.096969 C: 0.4155516
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.128197 B: 2.08624 C: 0.4136029
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.129426 B: 2.090338 C: 0.4149846
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.136984 B: 2.098895 C: 0.4157457
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.140168 B: 2.100917 C: 0.4165259
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132285 B: 2.091967 C: 0.414944
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.135568 B: 2.096416 C: 0.4162768
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.14209 B: 2.104477 C: 0.4191717
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.140946 B: 2.103199 C: 0.4193286
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.131651 B: 2.090463 C: 0.4175629
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.127938 B: 2.088797 C: 0.4174872
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.129922 B: 2.090571 C: 0.4190095
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.125518 B: 2.086082 C: 0.4180006
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.112164 B: 2.068167 C: 0.4140363
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108345 B: 2.063828 C: 0.4123617
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.106238 B: 2.060148 C: 0.4119273
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097122 B: 2.048876 C: 0.4100054
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.096935 B: 2.051971 C: 0.4114179
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.101803 B: 2.06211 C: 0.4135552
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.104635 B: 2.065266 C: 0.4144721
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.095967 B: 2.056347 C: 0.4135791
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097925 B: 2.062384 C: 0.4146082
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.104655 B: 2.069851 C: 0.4161147
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.10572 B: 2.071083 C: 0.4162506
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.096232 B: 2.058812 C: 0.4143772
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.100172 B: 2.06314 C: 0.4144873
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.097737 B: 2.064702 C: 0.4148099
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.094135 B: 2.05995 C: 0.4138006
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.080234 B: 2.042513 C: 0.4103462
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.076925 B: 2.039281 C: 0.4097009
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.071891 B: 2.034446 C: 0.4081213
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.063814 B: 2.024569 C: 0.4055698
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.064335 B: 2.031241 C: 0.4090419
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.07216 B: 2.042019 C: 0.4117379
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.073705 B: 2.044883 C: 0.4120399
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.068118 B: 2.037761 C: 0.4109622
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.073545 B: 2.046233 C: 0.4125748
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.078835 B: 2.053474 C: 0.4143272
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.077821 B: 2.055218 C: 0.4145839
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.067914 B: 2.041969 C: 0.4122499
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.074089 B: 2.046713 C: 0.4128926
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.079108 B: 2.051774 C: 0.4113627
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.076615 B: 2.048541 C: 0.4105739
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.062155 B: 2.030443 C: 0.4063251
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.062059 B: 2.029617 C: 0.4067323
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.060498 B: 2.028666 C: 0.4068643
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.054595 B: 2.019723 C: 0.4053439
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.059427 B: 2.023973 C: 0.407077
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.067794 B: 2.033854 C: 0.4093561
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.068578 B: 2.036913 C: 0.4103225
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.062432 B: 2.028284 C: 0.408849
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.065025 B: 2.031696 C: 0.4100827
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.071296 B: 2.038043 C: 0.4104422
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.071827 B: 2.03912 C: 0.4096678
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.062951 B: 2.0265 C: 0.4074298
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.064179 B: 2.026672 C: 0.4078974
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.065384 B: 2.027131 C: 0.4074028
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.061051 B: 2.020705 C: 0.4057415
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.069923 B: 2.034278 C: 0.4068773
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.082487 B: 2.04798 C: 0.4112682
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.090408 B: 2.056909 C: 0.413307
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.088747 B: 2.053195 C: 0.4128699
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.098266 B: 2.062472 C: 0.4152474
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.108625 B: 2.076552 C: 0.4165925
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.113591 B: 2.081622 C: 0.4177363
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109176 B: 2.074302 C: 0.4157652
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.109992 B: 2.080372 C: 0.4174791
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.112811 B: 2.08326 C: 0.4191381
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.112579 B: 2.083375 C: 0.419349
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.102721 B: 2.070825 C: 0.4164767
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.099665 B: 2.069601 C: 0.4172344
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.100076 B: 2.070618 C: 0.4169047
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.094185 B: 2.064137 C: 0.4160231
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.098806 B: 2.072607 C: 0.4166918
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.10824 B: 2.085154 C: 0.419275
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.114706 B: 2.091206 C: 0.4208044
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.110539 B: 2.086663 C: 0.4186122
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.120071 B: 2.09811 C: 0.4214344
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.130186 B: 2.109073 C: 0.4229318
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.133315 B: 2.114413 C: 0.4239905
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.126537 B: 2.105547 C: 0.4230838
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132255 B: 2.11299 C: 0.4239869
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.133654 B: 2.117675 C: 0.4250823
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.132171 B: 2.115567 C: 0.4248425
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122806 B: 2.10276 C: 0.422177
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.122307 B: 2.101799 C: 0.420718
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.121671 B: 2.102145 C: 0.4196546
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.117544 B: 2.096188 C: 0.4183901
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.123228 B: 2.102153 C: 0.422176
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.135558 B: 2.11546 C: 0.4240084
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.141017 B: 2.120895 C: 0.4256782
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.138242 B: 2.116637 C: 0.4256424
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.145357 B: 2.127298 C: 0.4275432
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.154757 B: 2.139229 C: 0.4285088
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.159642 B: 2.145005 C: 0.4303027
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.151173 B: 2.135657 C: 0.4278514
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.157578 B: 2.140862 C: 0.4293218
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.163514 B: 2.147118 C: 0.4295547
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.163518 B: 2.145239 C: 0.4303046
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.152132 B: 2.130235 C: 0.4273493
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.152061 B: 2.129711 C: 0.4258006
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.152552 B: 2.130057 C: 0.4257692
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.146658 B: 2.123139 C: 0.4243487
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.154743 B: 2.133153 C: 0.4265238
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.164844 B: 2.147308 C: 0.4293414
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.171466 B: 2.154489 C: 0.4309917
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.166999 B: 2.149487 C: 0.4301244
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.167702 B: 2.156869 C: 0.4304353
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.177072 B: 2.169349 C: 0.4324941
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.17905 B: 2.172505 C: 0.4312747
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.171887 B: 2.163906 C: 0.4296482
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.177552 B: 2.168694 C: 0.430843
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.184252 B: 2.174949 C: 0.4322784
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182843 B: 2.173528 C: 0.4321209
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.171956 B: 2.159853 C: 0.42941
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.169919 B: 2.153539 C: 0.4308567
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.168514 B: 2.14985 C: 0.4312011
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.16359 B: 2.141763 C: 0.4308236
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.169052 B: 2.151067 C: 0.4328935
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.179749 B: 2.162287 C: 0.4356836
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.184847 B: 2.167869 C: 0.4372631
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181119 B: 2.163764 C: 0.4364844
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.189749 B: 2.172693 C: 0.4402721
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.200574 B: 2.185557 C: 0.4443445
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.202638 B: 2.18913 C: 0.4446014
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.196232 B: 2.180248 C: 0.4431516
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.200779 B: 2.185658 C: 0.4444427
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.2048 B: 2.189599 C: 0.4445824
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203142 B: 2.189086 C: 0.443521
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.192323 B: 2.174423 C: 0.4408636
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.189632 B: 2.172742 C: 0.4409429
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.188814 B: 2.173048 C: 0.4422555
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182715 B: 2.165246 C: 0.4416771
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.187828 B: 2.172541 C: 0.443496
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197876 B: 2.184094 C: 0.4460398
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.200425 B: 2.190098 C: 0.4474078
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.1972 B: 2.185473 C: 0.4464815
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.204464 B: 2.19441 C: 0.4482688
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209102 B: 2.203689 C: 0.4490212
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.210926 B: 2.205272 C: 0.4495965
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203043 B: 2.195177 C: 0.4475787
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.205439 B: 2.198472 C: 0.4499173
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207713 B: 2.203121 C: 0.4512494
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.204349 B: 2.19992 C: 0.4508738
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.192797 B: 2.184631 C: 0.4479485
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.19168 B: 2.183038 C: 0.4478317
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.18956 B: 2.182639 C: 0.4477193
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.18244 B: 2.174136 C: 0.4461325
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.18954 B: 2.1847 C: 0.4481713
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198636 B: 2.198039 C: 0.4521471
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.20329 B: 2.204262 C: 0.453669
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199136 B: 2.198872 C: 0.4520663
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.206837 B: 2.208432 C: 0.4526285
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.213091 B: 2.218196 C: 0.4546558
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.214323 B: 2.22203 C: 0.4553218
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.206186 B: 2.211817 C: 0.4527481
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207867 B: 2.216856 C: 0.4508729
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.212633 B: 2.224018 C: 0.4517264
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.21075 B: 2.220742 C: 0.4511379
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199352 B: 2.206033 C: 0.448568
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.196933 B: 2.203372 C: 0.4479187
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197054 B: 2.205441 C: 0.4476054
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.191481 B: 2.198601 C: 0.4466722
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.196158 B: 2.208427 C: 0.4482761
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.204512 B: 2.222734 C: 0.4506628
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.208716 B: 2.228841 C: 0.4519044
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203017 B: 2.22279 C: 0.4508114
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.208401 B: 2.233225 C: 0.4510584
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.217014 B: 2.243139 C: 0.4515755
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219113 B: 2.246843 C: 0.4519794
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.211528 B: 2.236717 C: 0.4498606
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.21429 B: 2.241609 C: 0.4490964
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.217978 B: 2.247654 C: 0.4499417
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.215057 B: 2.244822 C: 0.4484603
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.204098 B: 2.228919 C: 0.4455178
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.20549 B: 2.228996 C: 0.4469263
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203988 B: 2.228409 C: 0.448271
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.19857 B: 2.222424 C: 0.4469036
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.206333 B: 2.23308 C: 0.4489056
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.218079 B: 2.245933 C: 0.452947
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.221482 B: 2.250149 C: 0.4543428
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.217149 B: 2.244684 C: 0.4533532
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.223488 B: 2.2506 C: 0.4552089
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.230293 B: 2.257318 C: 0.4584506
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.232909 B: 2.260638 C: 0.4591636
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225026 B: 2.24964 C: 0.4572316
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.2257 B: 2.248905 C: 0.4579457
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.227809 B: 2.252205 C: 0.458763
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.223841 B: 2.247585 C: 0.4580818
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.211012 B: 2.23076 C: 0.4553149
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.20831 B: 2.226541 C: 0.4545066
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207195 B: 2.223234 C: 0.4551013
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.201669 B: 2.214292 C: 0.4538605
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.208947 B: 2.221497 C: 0.4552207
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.218881 B: 2.234836 C: 0.4560777
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.222843 B: 2.240666 C: 0.4569428
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.216474 B: 2.233 C: 0.4541363
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.22124 B: 2.238887 C: 0.4562976
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.227943 B: 2.247156 C: 0.4585544
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.231277 B: 2.249638 C: 0.4602599
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.223723 B: 2.239475 C: 0.4582536
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.226924 B: 2.241587 C: 0.4589776
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.227623 B: 2.245204 C: 0.4599392
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.223479 B: 2.24085 C: 0.4593878
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209812 B: 2.223924 C: 0.4566818
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.208357 B: 2.220573 C: 0.455839
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.205011 B: 2.218161 C: 0.4542346
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199616 B: 2.210641 C: 0.4523816
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209627 B: 2.220002 C: 0.4541898
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.220561 B: 2.232582 C: 0.4566618
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225559 B: 2.238199 C: 0.4579335
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.220595 B: 2.231228 C: 0.456731
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.226997 B: 2.238968 C: 0.4567997
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.232728 B: 2.246371 C: 0.458382
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.23314 B: 2.248696 C: 0.4577122
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225858 B: 2.238404 C: 0.4550991
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.229453 B: 2.242282 C: 0.4547201
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.232506 B: 2.245878 C: 0.4544523
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.230055 B: 2.242394 C: 0.4538876
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.21758 B: 2.227002 C: 0.450762
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.214996 B: 2.225838 C: 0.4504916
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.212957 B: 2.223171 C: 0.4503404
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207214 B: 2.215171 C: 0.4487391
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.211166 B: 2.220645 C: 0.450422
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219029 B: 2.230872 C: 0.4528341
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.221677 B: 2.235628 C: 0.454059
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.21749 B: 2.229748 C: 0.4529377
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.21973 B: 2.235197 C: 0.4546055
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225721 B: 2.244737 C: 0.4579131
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.225225 B: 2.247365 C: 0.4575141
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.216938 B: 2.235392 C: 0.4555115
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.218337 B: 2.238929 C: 0.4563125
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.219644 B: 2.241298 C: 0.4572591
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.217507 B: 2.238384 C: 0.4575553
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.205337 B: 2.221398 C: 0.4541498
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.203668 B: 2.218292 C: 0.4535005
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.201953 B: 2.217465 C: 0.4531594
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.194839 B: 2.209001 C: 0.4513454
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.19885 B: 2.212712 C: 0.451203
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207968 B: 2.222297 C: 0.4517862
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.212533 B: 2.228335 C: 0.4525519
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207591 B: 2.221758 C: 0.4509693
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.207691 B: 2.224281 C: 0.4522567
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209128 B: 2.23116 C: 0.4526563
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.209131 B: 2.233194 C: 0.4528926
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.199073 B: 2.220068 C: 0.4505969
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198491 B: 2.219644 C: 0.4511364
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.197178 B: 2.220944 C: 0.4529532
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.193292 B: 2.216592 C: 0.4522344
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181095 B: 2.199986 C: 0.4484823
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.182254 B: 2.200067 C: 0.4485694
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.181431 B: 2.199433 C: 0.4474954
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.174232 B: 2.189688 C: 0.4451934
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.178489 B: 2.195185 C: 0.4454421
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.187711 B: 2.206427 C: 0.4476239
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.190408 B: 2.213897 C: 0.4496876
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.186944 B: 2.208166 C: 0.447666
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.192189 B: 2.212929 C: 0.4478645
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198216 B: 2.220117 C: 0.449505
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.198539 B: 2.221797 C: 0.450557
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.188004 B: 2.208328 C: 0.4480087
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.190838 B: 2.213799 C: 0.4485138
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+A: 1.19402 B: 2.219887 C: 0.4492596
+VROne.VrHeadTracking:Update()
+ 
+(Filename:
+ /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp
+ Line: 37)
+
+
