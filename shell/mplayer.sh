@@ -1,1 +1,1 @@
-mplayer udp://192.168.0.102:6666 -benchmark -framedrop
+mplayer udp://127.0.0.1:6666 -benchmark -framedrop
