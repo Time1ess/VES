@@ -1,10 +1,9 @@
 #include "libdavid.h"
 
-
-/* Since we only have one decoding thread, the Big Struct
- can be global in case we need it. */
 VideoState *gs;
-AVFrame *pFrameRGB = av_frame_alloc();
+AVFrame *pFrameRGB[FRAME_SIZE];
+bool pFrameRGB_status[FRAME_SIZE];
+
 pthread_cond_t event_cond = PTHREAD_COND_INITIALIZER;
 pthread_mutex_t event_mutex = PTHREAD_MUTEX_INITIALIZER;
 int event_type = 0;
@@ -16,7 +15,6 @@ void packet_queue_init(PacketQueue *q)
     q->mutex = PTHREAD_MUTEX_INITIALIZER;
     q->cond = PTHREAD_COND_INITIALIZER;
 }
-
 
 int packet_queue_put(PacketQueue *q, AVPacket *pkt)
 {
@@ -41,12 +39,11 @@ int packet_queue_put(PacketQueue *q, AVPacket *pkt)
     q->last_pkt = pkt1;
     q->nb_packets++;
     q->size += pkt1->pkt.size;
-
+    
     pthread_cond_signal(&q->cond);
     pthread_mutex_unlock(&q->mutex);
     return 0;
 }
-
 
 static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)
 {
@@ -60,7 +57,6 @@ static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)
         {
             ret = -1;
             break;
-            
         }
         pkt1 = q->first_pkt;
         if(pkt1)
@@ -90,33 +86,77 @@ static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)
 }
 
 
-int init_picture(VideoState *is, AVFrame *pFrame)
+int get_frame_status(VideoState *is,FRAME_STATUS type)
 {
- 
-    if(is->quit||pFrameRGB == NULL)
+//    return 0;
+    int index=FRAME_SIZE;
+    if(is==NULL)
+        return index;
+    if(is->frames_status[0]==type)
+        return 0;
+    return index;
+}
+
+void set_frame_status(VideoState *is,FRAME_STATUS type)
+{
+    is->frames_status[0]=type;
+}
+
+int init_picture(VideoState *is, int index)
+{
+    if(is->quit||index<0||index>=FRAME_SIZE)
         return -1;
-    
     sws_scale(
-              is->sws_ctx,
-              (uint8_t const * const *)pFrame->data,
-              pFrame->linesize,
+              is->sws_ctx[index],
+              (uint8_t const * const *)is->frames[index]->data,
+              is->frames[index]->linesize,
               0,
               is->video_st->codec->height,
-              pFrameRGB->data,
-              pFrameRGB->linesize
+              pFrameRGB[index]->data,
+              pFrameRGB[index]->linesize
               );
     return 0;
 }
 
+void *transcode_thread(void *arg)
+{
+    
+    //fprintf(stdout, "[FFmpeg-video thread] transcode thread [%d] created\n",thread_count++);
+    VideoState *is = (VideoState *)arg;
+    int index;
+    for(;;)
+    {
+        if(is->quit)
+        {
+            break;
+        }
+        pthread_mutex_lock(&is->mutex);
+        pthread_cond_wait(&is->cond, &is->mutex);
+        index=get_frame_status(is, FRAME_WAIT_TRANSCODE);
+        pthread_mutex_unlock(&is->mutex);
+        if(index!=FRAME_SIZE)
+        {
+            init_picture(is, index);
+            set_frame_status(is, FRAME_WAIT_READ);
+        }
+    }
+    fprintf(stdout, "[FFmpeg-transcode thread] thread terminated\n");
+    return NULL;
+}
+
+
 void *video_thread(void *arg)
 {
+    //fprintf(stdout, "[FFmpeg-decode thread] video_thread created\n");
     VideoState *is = (VideoState *)arg;
     AVPacket pkt1, *packet = &pkt1;
-    int frameFinished;
-    AVFrame *pFrame;
+    int frameFinished=0;
+    int index=0;
+
+    pthread_create(&is->trans_tid, NULL, transcode_thread, (void *)is);
     
-    pFrame = av_frame_alloc();
-    
+    //fprintf(stdout, "[FFmpeg-video thread] decode frame\n");
+    index=get_frame_status(is,FRAME_WAIT_WRITE);
     for(;;)
     {
         if(is->quit)
@@ -129,16 +169,24 @@ void *video_thread(void *arg)
             break;
         }
         // Decode video frame
-        avcodec_decode_video2(is->video_st->codec, pFrame, &frameFinished, packet);
         
-        // Did we get a video frame?
+        avcodec_decode_video2(is->video_st->codec, is->frames[index], &frameFinished, packet);
+        
         if(frameFinished)
         {
-            init_picture(is, pFrame);
+            if(index!=FRAME_SIZE)
+            {
+                pthread_mutex_lock(&is->mutex);
+                pthread_cond_signal(&is->cond);
+                set_frame_status(is, FRAME_WAIT_TRANSCODE);
+                pthread_mutex_unlock(&is->mutex);
+            }
+            index=get_frame_status(is,FRAME_WAIT_WRITE);
         }
         av_free_packet(packet);
     }
-    av_frame_free(&pFrame);
+    
+    fprintf(stdout, "[FFmpeg-video thread] thread terminated\n");
     return NULL;
 }
 
@@ -171,21 +219,25 @@ int stream_component_open(VideoState *is, int stream_index)
         is->video_st = pFormatCtx->streams[stream_index];
         
         packet_queue_init(&is->videoq);
-        is->sws_ctx = sws_getContext
-        (
-         is->video_st->codec->width,
-         is->video_st->codec->height,
-         is->video_st->codec->pix_fmt,
-         VIEW_WIDTH,
-         VIEW_HEIGHT,
-         AV_PIX_FMT_RGBA,
-         SWS_BILINEAR,
-         NULL,
-         NULL,
-         NULL
-         );
+        for(int i=0;i<FRAME_SIZE;i++)
+        {
+            is->sws_ctx[i] = sws_getContext
+            (
+             is->video_st->codec->width,
+             is->video_st->codec->height,
+             is->video_st->codec->pix_fmt,
+             VIEW_WIDTH,
+             VIEW_HEIGHT,
+             AV_PIX_FMT_RGB24,
+             SWS_FAST_BILINEAR,
+             NULL,
+             NULL,
+             NULL
+             );
+        }
         //fprintf(stdout, "create video thread\n");
         pthread_create(&is->video_tid, NULL, video_thread, is);
+        
     }
     return 0;
 }
@@ -199,6 +251,7 @@ int decode_interrupt_cb(void *opaque)
 
 void *decode_thread(void *arg)
 {
+    //fprintf(stdout, "[FFmpeg-main thread] decode_thread created\n");
     VideoState *is = (VideoState *)arg;
     AVFormatContext *pFormatCtx = NULL;
     AVPacket pkt1, *packet = &pkt1;
@@ -210,11 +263,11 @@ void *decode_thread(void *arg)
     
     is->videoStream=-1;
     
-    gs = is;
     // Will interrupt blocking functions ifwe quit!
     callback.callback = decode_interrupt_cb;
     callback.opaque = is;
     
+    fprintf(stdout, "[FFmpeg-decode thread] Try to open I/O\n");
     if(avio_open2(&is->io_context, is->filename, 0, &callback, NULL) < 0)
     {
         fprintf(stdout, "Unable to open I/O for file\n");
@@ -223,6 +276,7 @@ void *decode_thread(void *arg)
     //fprintf(stdout, "avio_open2 done\n");
     
     // Open video file
+    fprintf(stdout, "[FFmpeg-decode thread] Try to open format context\n");
     if(avformat_open_input(&pFormatCtx, is->filename, NULL, NULL)!=0)
     {
         fprintf(stdout, "Couldn't Open file\n");
@@ -233,6 +287,7 @@ void *decode_thread(void *arg)
     is->pFormatCtx = pFormatCtx;
     
     // Retrieve stream information
+    fprintf(stdout, "[FFmpeg-decode thread] Try to Retrieve stream info\n");
     if(avformat_find_stream_info(pFormatCtx, NULL)<0)
     {
         fprintf(stdout, "Couldn't Retrieve stream information\n");
@@ -261,6 +316,7 @@ void *decode_thread(void *arg)
     stream_component_open(is, video_index);
     
     // main decode loop
+    //fprintf(stdout, "[FFmpeg-decode thread] read frame\n");
     for(;;)
     {
         if(is->quit)
@@ -275,48 +331,70 @@ void *decode_thread(void *arg)
                 break;
         }
         if(packet->stream_index == is->videoStream)
+        {
             packet_queue_put(&is->videoq, packet);
+            //fprintf(stdout, "packs ready to load: %d\n",is->videoq.nb_packets);
+        }
         else
             av_free_packet(packet);
     }
+    fprintf(stdout, "[FFmpeg-decode thread] thread terminated\n");
     return NULL;
 }
 
 extern "C" int UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API init(char* name, int textureId)
 {
-//    SDL_Event       event;
-
-    VideoState      *is;
-    is = (VideoState*)av_mallocz(sizeof(VideoState));
-    if(name == NULL) return -1;
-
-    
     // Register all formats and codecs
+    if(name == NULL) return -1;
     av_register_all();
     avformat_network_init();
     
-    uint8_t *buffer;
+    uint8_t *buffers[FRAME_SIZE];
+    
     int buffer_size;
-    buffer_size = avpicture_get_size(AV_PIX_FMT_RGBA, VIEW_WIDTH, VIEW_HEIGHT);
-
-    buffer = (uint8_t *) av_malloc(buffer_size*sizeof(uint8_t));
+    buffer_size = avpicture_get_size(AV_PIX_FMT_RGB24, VIEW_WIDTH, VIEW_HEIGHT);
     
-    avpicture_fill((AVPicture *) pFrameRGB, buffer, AV_PIX_FMT_RGBA,
-                   VIEW_WIDTH, VIEW_HEIGHT);
+    for(int i=0;i<FRAME_SIZE;i++)
+    {
+        buffers[i] = (uint8_t *) av_malloc(buffer_size*sizeof(uint8_t));
+        pFrameRGB[i]=av_frame_alloc();
+        avpicture_fill((AVPicture *) pFrameRGB[i], buffers[i], AV_PIX_FMT_RGB24,
+                       VIEW_WIDTH, VIEW_HEIGHT);
+    }
     
-
+    VideoState *is;
+    is = (VideoState*)av_mallocz(sizeof(VideoState));
+    gs = is;
+    
     strcpy(is->filename, name);
     is->textureId = textureId;
+    for(int i=0;i<FRAME_SIZE;i++)
+    {
+        is->frames[i]=av_frame_alloc();
+        pFrameRGB_status[i]=false;
+    }
+    is->frames[FRAME_SIZE]=av_frame_alloc();
+    is->mutex=PTHREAD_MUTEX_INITIALIZER;
+    is->cond=PTHREAD_COND_INITIALIZER;
+
     pthread_create(&is->parse_tid, NULL, decode_thread, is);
+    
     if(!is->parse_tid)
     {
         av_free(is);
         return -1;
     }
     int ret = 0;
+    // OpenGL ES init.
+    glEnable(GL_TEXTURE_2D);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_ONE, GL_SRC_COLOR);
+    
+    // End init.
+    fprintf(stdout, "[FFmpeg-main thread] wait for event\n");
+    
     for(;;)
     {
-//        SDL_WaitEvent(&event);
         pthread_mutex_lock(&event_mutex);
         pthread_cond_wait(&event_cond, &event_mutex);
         switch(event_type)
@@ -324,11 +402,22 @@ extern "C" int UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API init(char* name, int t
             case FF_QUIT_EVENT:
                 ret = pthread_join(is->parse_tid, NULL);
                 if(ret)
-                    fprintf(stdout, "decode_thread exit error.\n");
+                    fprintf(stdout, "decode_thread exit with error.\n");
+                else
+                    fprintf(stdout, "decode_thread exit with no error.\n");
                 ret = pthread_join(is->video_tid, NULL);
                 if(ret)
-                    fprintf(stdout, "video thread exit error.\n");
-                av_frame_free(&pFrameRGB);
+                    fprintf(stdout, "video_thread exit error.\n");
+                else
+                    fprintf(stdout, "video_thread exit with no error.\n");
+                ret = pthread_join(is->trans_tid, NULL);
+                if(ret)
+                    fprintf(stdout, "transcode thread exit error.\n");
+                else
+                    fprintf(stdout, "transcode_thread exit with no error.\n");
+                av_frame_free(&pFrameRGB[0]);
+                av_frame_free(&pFrameRGB[1]);
+                fprintf(stdout, "[FFmpeg-main thread] thread terminated\n");
                 return 0;
                 break;
             default:
@@ -336,16 +425,8 @@ extern "C" int UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API init(char* name, int t
         }
         pthread_mutex_unlock(&event_mutex);
     }
-    av_frame_free(&pFrameRGB);
     return 0;
 }
-
-
-//extern "C" void UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API destroy(void *arg)
-//{
-//    VideoState *is = (VideoState *)arg;
-//    av_free(is);
-//}
 
 extern "C" int UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API dlltest()
 {
@@ -365,14 +446,18 @@ extern "C" int UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API terminate()
 static void UNITY_INTERFACE_API OnRenderEvent(int texID)
 {
     GLuint gltex = (GLuint)(size_t)(texID);
-
+    int index;
     glBindTexture(GL_TEXTURE_2D, gltex);
-    
-    glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, VIEW_WIDTH, VIEW_HEIGHT,
-                    GL_RGBA, GL_UNSIGNED_BYTE, pFrameRGB->data[0]);
-
-    glGetError();
-    return;
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);
+    index=get_frame_status(gs, FRAME_WAIT_READ);
+    if(index!=FRAME_SIZE&&pFrameRGB[index])
+    {
+        glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, VIEW_WIDTH, VIEW_HEIGHT,
+                        GL_RGB, GL_UNSIGNED_BYTE, pFrameRGB[index]->data[0]);
+        set_frame_status(gs, FRAME_WAIT_WRITE);
+    }
+    glBindTexture(GL_TEXTURE_2D, 0);
 }
 
 extern "C" UnityRenderingEvent UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetRenderEventFunc()
