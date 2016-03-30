@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{45C6DB63-DF75-092F-814F-D9140E64A0C7}") = "Visual extension system based on VR HMD", "Assembly-CSharp-firstpass.csproj", "{5A8076FD-310F-8EAC-229D-D3C0A520A416}"
+EndProject
+Project("{45C6DB63-DF75-092F-814F-D9140E64A0C7}") = "Visual extension system based on VR HMD", "Assembly-CSharp.csproj", "{57A882CF-762E-2376-F659-EED87A7A500A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8076FD-310F-8EAC-229D-D3C0A520A416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8076FD-310F-8EAC-229D-D3C0A520A416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8076FD-310F-8EAC-229D-D3C0A520A416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8076FD-310F-8EAC-229D-D3C0A520A416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A882CF-762E-2376-F659-EED87A7A500A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A882CF-762E-2376-F659-EED87A7A500A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A882CF-762E-2376-F659-EED87A7A500A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A882CF-762E-2376-F659-EED87A7A500A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
