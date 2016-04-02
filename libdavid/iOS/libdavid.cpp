@@ -153,7 +153,7 @@ void *video_thread(void *arg)
     int frameFinished=0;
     int index=0;
 
-    pthread_create(&is->trans_tid, NULL, transcode_thread, (void *)is);
+    //pthread_create(&is->trans_tid, NULL, transcode_thread, (void *)is);
     
     //fprintf(stdout, "[FFmpeg-video thread] decode frame\n");
     index=get_frame_status(is,FRAME_WAIT_WRITE);
@@ -170,18 +170,20 @@ void *video_thread(void *arg)
         }
         // Decode video frame
         
-        avcodec_decode_video2(is->video_st->codec, is->frames[index], &frameFinished, packet);
-        
+        avcodec_decode_video2(is->video_st->codec, is->frames[0], &frameFinished, packet);
+        //fprintf(stdout,"Current packs in queue:%d\n",is->videoq.nb_packets);
         if(frameFinished)
         {
-            if(index!=FRAME_SIZE)
-            {
-                pthread_mutex_lock(&is->mutex);
-                pthread_cond_signal(&is->cond);
-                set_frame_status(is, FRAME_WAIT_TRANSCODE);
-                pthread_mutex_unlock(&is->mutex);
-            }
-            index=get_frame_status(is,FRAME_WAIT_WRITE);
+            init_picture(is, 0);
+
+//            if(index!=FRAME_SIZE)
+//            {
+//                pthread_mutex_lock(&is->mutex);
+//                pthread_cond_signal(&is->cond);
+//                set_frame_status(is, FRAME_WAIT_TRANSCODE);
+//                pthread_mutex_unlock(&is->mutex);
+//            }
+//            index=get_frame_status(is,FRAME_WAIT_WRITE);
         }
         av_free_packet(packet);
     }
@@ -450,12 +452,12 @@ static void UNITY_INTERFACE_API OnRenderEvent(int texID)
     glBindTexture(GL_TEXTURE_2D, gltex);
     glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_LINEAR);
-    index=get_frame_status(gs, FRAME_WAIT_READ);
-    if(index!=FRAME_SIZE&&pFrameRGB[index])
+    //index=get_frame_status(gs, FRAME_WAIT_READ);
+    if(pFrameRGB[0]&&pFrameRGB[0]->data[0])
     {
         glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, VIEW_WIDTH, VIEW_HEIGHT,
-                        GL_RGB, GL_UNSIGNED_BYTE, pFrameRGB[index]->data[0]);
-        set_frame_status(gs, FRAME_WAIT_WRITE);
+                        GL_RGB, GL_UNSIGNED_BYTE, pFrameRGB[0]->data[0]);
+        //set_frame_status(gs, FRAME_WAIT_WRITE);
     }
     glBindTexture(GL_TEXTURE_2D, 0);
 }
