@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 14:10
-# Last modified: 2016-04-04 14:41
+# Last modified: 2016-04-04 16:25
 # Filename: client_test.py
 # Description:
 #!/usr/bin/python
@@ -42,7 +42,7 @@ ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # send socket
 ss.connect((host, port))
 while True:
     try:
-        msg = repr([randint(0, 360) for x in xrange(2)])
+        msg = repr(tuple([randint(0, 360) for x in xrange(3)]))
         ss.send(msg)
         print 'Send message:', msg
     except:

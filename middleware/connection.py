@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-04 15:03
+# Last modified: 2016-04-04 16:25
 # Filename: connection.py
 # Description:
 __metaclass__ = type
@@ -36,11 +36,11 @@ class Connection:
         return (self.__v_yp, self.__d_yp)
 
     def parse_data(self, data):
-        data = re.match(r'\[(.*?)\]', data)
+        data = re.match(r'\((.*?)\)', data)
         data = re.sub(r',', '', data.group(1))
         data = data.split(' ')
         data = map(lambda x: float(x), data)
-        return data
+        return data[:2]
 
     def __init__(self):
         """
