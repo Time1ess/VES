@@ -1,5 +1,11 @@
 #!/usr/bin/python
 # coding:utf-8
+# Author: David
+# Email: youchen.du@gmail.com
+# Created: 2016-04-04 13:30
+# Last modified: 2016-04-04 15:02
+# Filename: visual.py
+# Description:
 __metaclass__ = type
 import pygame
 from OpenGL.GL import *
@@ -15,6 +21,7 @@ class Visualization:
     __SCREEN_SIZE = (800, 600)
     __display_yp = [0, 0]  # yaw pitch
     __video_yp = [0, 0]
+    __exit = False
 
     def __init(self):
         glEnable(GL_DEPTH_TEST)
@@ -29,7 +36,7 @@ class Visualization:
         glEnable(GL_LIGHT0)
         glLightfv(GL_LIGHT0, GL_AMBIENT, (0.2, 0.3, 0.3, 1.0))
 
-    def set_yp(display, video):
+    def set_yp(self, display, video):
         """
         Set up yaw and pitch data for display and video.
         params: display_gyro_data(e.g. [3,50])  video_gyro_data
@@ -51,18 +58,30 @@ class Visualization:
                   0.0, 0.0, 0.0,
                   0.0, 1.0, 0.0)
 
-    def run(self):
+    def run(self, data_queue, msg_queue):
         """
         Start pygame to create a window for Visualization.
         """
+        self.__data_queue = data_queue
+        self.__msg_queue = msg_queue
         pygame.init()
         screen = pygame.display.set_mode(self.__SCREEN_SIZE, HWSURFACE | OPENGL | DOUBLEBUF)
         self.__init()
         self.__resize(*self.__SCREEN_SIZE)
         cube = Cube((1.5, 0.0, 0.0), (.5, .5, .7))
         cube2 = Cube((-1.5, 0.0, 0.0), (.7, .7, .5))
+        data = [[0, 0], [0, 0]]
 
         while True:
+            try:
+                msg = self.__msg_queue.get(block=False)
+                if msg == "EXIT":
+                    self.__exit = True
+            except:
+                pass
+            if self.__exit is True:
+                print 'Visualization shutdown.'
+                return
             for event in pygame.event.get():
                 if event.type == QUIT:
                     return
@@ -97,6 +116,12 @@ class Visualization:
                 glVertex3f(3, y/10., 1)
                 glVertex3f(3, y/10., -1)
             glEnd()
+
+            try:
+                data = self.__data_queue.get(block=False)
+                self.set_yp(data[0], data[1])
+            except:
+                pass
 
             glPushMatrix()
             glTranslate(*cube.position)

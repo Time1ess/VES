@@ -1,9 +1,18 @@
 #!/usr/bin/python
 # coding:utf-8
+# Author: David
+# Email: youchen.du@gmail.com
+# Created: 2016-04-04 14:10
+# Last modified: 2016-04-04 14:41
+# Filename: client_test.py
+# Description:
+#!/usr/bin/python
+# coding:utf-8
 import socket
 import time
 import uuid
 import sys
+from random import randint
 
 
 def Check_Identity(data):
@@ -33,10 +42,10 @@ ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # send socket
 ss.connect((host, port))
 while True:
     try:
-        msg = str(uuid.uuid1())[:8]
+        msg = repr([randint(0, 360) for x in xrange(2)])
         ss.send(msg)
         print 'Send message:', msg
     except:
         print 'Socket close.'
         break
-    time.sleep(1)
+    time.sleep(0.3)
