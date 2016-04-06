@@ -3,13 +3,15 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-04 16:25
+# Last modified: 2016-04-06 09:56
 # Filename: connection.py
 # Description:
 __metaclass__ = type
 import socket
 import select
 import re
+from const import MIDDLEWARE_PORT_BROAD, DISPLAY_PORT_RECEIVE
+from const import VIDEO_PORT_SEND, VIDEO_PORT_RECEIVE
 
 
 class Connection:
@@ -22,25 +24,34 @@ class Connection:
         __display_port_g = 8092
     """
     __broad_host = '<broadcast>'
-    __broad_port = 8089  # port for broadcasting msg to all terminals
+    __broad_port = MIDDLEWARE_PORT_BROAD
     __broad_addr = (__broad_host, __broad_port)
     __host = ''
-    __video_port_g = 8090  # port for receiving gyro data from video terminal
-    __video_port_s = 8091  # port for sending motor cmd to video terminal
-    __display_port_g = 8092  # port for receiving gyro data from display terminal
+    __video_port_g = VIDEO_PORT_RECEIVE
+    __video_port_s = VIDEO_PORT_SEND
+    __display_port_g = DISPLAY_PORT_RECEIVE
     __exit = False
     __v_yp = [0, 0]
     __d_yp = [0, 0]
+    __data_queue = None
+    __msg_queue = None
+    video_terminal_addr = None
+    display_terminal_addr = None
 
     def get_yw_data(self):
         return (self.__v_yp, self.__d_yp)
 
     def parse_data(self, data):
-        data = re.match(r'\((.*?)\)', data)
-        data = re.sub(r',', '', data.group(1))
-        data = data.split(' ')
-        data = map(lambda x: float(x), data)
-        return data[:2]
+        if not data:
+            return None
+        try:
+            data = re.match(r'\((.*?)\)', data)
+            data = re.sub(r',', '', data.group(1))
+            data = data.split(' ')
+            data = map(lambda x: float(x), data)
+            return data[:2]
+        except:
+            return None
 
     def __init__(self):
         """
@@ -83,10 +94,12 @@ class Connection:
                 if r is self.__video_terminal:
                     client, addr = self.__video_terminal.accept()
                     print 'Video terminal get connection from', addr
+                    self.video_terminal_addr = addr
                     self.__readys['video'] = client
                 elif r is self.__display_terminal:
                     client, addr = self.__display_terminal.accept()
                     print 'Display terminal get connection from', addr
+                    self.display_terminal_addr = addr
                     self.__readys['display'] = client
                 else:
                     print 'Unknown terminal.'
@@ -96,8 +109,9 @@ class Connection:
         """
         Begin to receive or send data over tcp link.
         """
-        self.__data_queue = data_queue
-        self.__msg_queue = msg_queue
+        if not self.__data_queue:
+            self.__data_queue = data_queue
+            self.__msg_queue = msg_queue
         while True:
             try:
                 msg = self.__msg_queue.get(block=False)
@@ -109,6 +123,8 @@ class Connection:
                 self.__terminate()
                 print 'Connection shutdown.'
                 break
+            if not self.__readys['display'] or not self.__readys['video']:
+                self.broad_to_connect()
             rs, ws, es = select.select(self.__readys.values(), [], [], 3)
             for r in rs:
                 try:
@@ -120,16 +136,14 @@ class Connection:
                 if r is self.__readys['video']:
                     if disconnected:
                         print 'Video terminal disconnected.'
-                        self.__exit = True
-                        del self.__readys['video']
+                        self.__readys['video'] = None
                     else:
                         # print 'Get message from video   terminal:', msg
                         self.__data_queue.put([None, self.parse_data(msg)])
                 elif r is self.__readys['display']:
                     if disconnected:
                         print 'Display terminal disconnected.'
-                        self.__exit = True
-                        del self.__readys['display']
+                        self.__readys['display'] = None
                     else:
                         # print 'Get message from display terminal:', msg
                         self.__data_queue.put([self.parse_data(msg), None])

@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-04 15:02
+# Last modified: 2016-04-06 09:14
 # Filename: visual.py
 # Description:
 __metaclass__ = type
@@ -21,7 +21,9 @@ class Visualization:
     __SCREEN_SIZE = (800, 600)
     __display_yp = [0, 0]  # yaw pitch
     __video_yp = [0, 0]
+    __video_yp_yaw_bias = [0, 0]
     __exit = False
+    __initialized = False
 
     def __init(self):
         glEnable(GL_DEPTH_TEST)
@@ -119,7 +121,13 @@ class Visualization:
 
             try:
                 data = self.__data_queue.get(block=False)
-                self.set_yp(data[0], data[1])
+                if self.__initialized:
+                    self.set_yp(data[0], data[1])
+                else:
+                    self.__video_yp_yaw_bias[0] = data[1][0]
+                    self.__video_yp_yaw_bias[1] = -270
+                    self.set_yp(data[0], data[1])
+                    self.__initialized = True
             except:
                 pass
 
@@ -131,8 +139,10 @@ class Visualization:
             glPopMatrix()
             glPushMatrix()
             glTranslate(*cube2.position)
-            glRotate(float(self.__video_yp[0]), 0, 1, 0)
-            glRotate(float(self.__video_yp[1]), 1, 0, 0)
+            glRotate(float(self.__video_yp[0]-self.__video_yp_yaw_bias[0]), 0, -1, 0)
+            glRotate(float(self.__video_yp[1]-self.__video_yp_yaw_bias[1]), -1, 0, 0)
+            # print '[DISPLAY]%-6.1f%6.1f[VIDEO-ORI]%-6.1f%6.1f[VIDEO-AFT]%-6.1f%6.1f[BIAS]%-6.1f%6.1f' % (self.__display_yp[0], self.__display_yp[1],
+            # self.__video_yp[0], self.__video_yp[1], self.__video_yp[0]-self.__video_yp_yaw_bias[0], self.__video_yp[1]-self.__video_yp_yaw_bias[1], self.__video_yp_yaw_bias[0], self.__video_yp_yaw_bias[1])
             cube.render()
             glPopMatrix()
             pygame.display.flip()

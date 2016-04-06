@@ -3,18 +3,25 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:29
-# Last modified: 2016-04-04 17:11
+# Last modified: 2016-04-06 10:03
 # Filename: system.py
 # Description:
 __metaclass__ = type
 from connection import Connection
 from visual import Visualization
+from ffmpeg import FFmpeg
 import time
 import os
 from threading import Thread
 from multiprocessing import Process, Queue
 
-threads = {}
+data_queue = None
+v_msg_queue = None
+c_msg_queue = None
+ct = None
+vp = None
+fp = None
+con = None
 
 
 def visual_process(data_queue, msg_queue):
@@ -25,34 +32,20 @@ def visual_process(data_queue, msg_queue):
 
 
 def connection_thread(data_queue, msg_queue):
+    global con
     con = Connection()
     con.broad_to_connect()
+    fp.start()
     con.start_data_process(data_queue, msg_queue)
     print 'Connection thread terminated.'
     return 0
 
 
 def ffmpeg_process(ip):
-    cmd = """ffmpeg -i udp://192.168.1.105:6665
-    -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p
-    -x264opts crf=20:vbv-maxrate=3000:vbv-bufsize=100:intra-refresh=1:
-    slice-max-size=1500:keyint=30:ref=1
-    -f mpegts udp://192.168.1.114:8093"""
-    cmd2 = """ffmpeg \
-    -f avfoundation -i "1" -s 1280*720 -r 30 \
-    -c:v libx264 -preset veryfast -tune zerolatency -pix_fmt yuv420p \
-    -x264opts crf=20:vbv-maxrate=3000:vbv-bufsize=100:intra-refresh=1:slice-max-size=1500:keyint=30:ref=1 \
-    -f mpegts udp://192.168.1.102:8093"""
-    os.system(cmd2)
+    ff = FFmpeg("0.0.0.0", con.display_terminal_addr[0], False)
+    ff.start()
     print 'FFmpeg process terminated.'
     return 0
-
-data_queue = None
-v_msg_queue = None
-c_msg_queue = None
-ct = None
-vp = None
-fp = None
 
 
 def terminate():
@@ -88,12 +81,11 @@ def main():
     vp.start()
     global fp
     fp = Process(target=ffmpeg_process, args=("",))
-    fp.start()
-    ter_time = 20
+    ter_time = 100
     while True:
-        print 'All system operational,terminate in ', ter_time, 'seconds'
+        # print 'All system operational,terminate in ', ter_time, 'seconds'
         time.sleep(1)
-        ter_time -= 1
+        # ter_time -= 1
         if ter_time == 0:
             return
 
