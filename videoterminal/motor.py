@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-07 23:07
+# Last modified: 2016-04-08 01:53
 # Filename: motor.py
 # Description:
 __metaclass__ = type
@@ -151,6 +151,8 @@ class Motor:
         Set target with pos and index, the motor thread will detect this change
         and will automatically prepare for next motor rolling.
         """
+        if pos is None:
+            return
         self.__target_pos[index] = pos
 
     def exit(self):

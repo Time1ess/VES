@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 23:07
+# Last modified: 2016-04-08 06:27
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -26,7 +26,7 @@ class Orientation:
     __exit = False
     __ypr = [None, None]
     __thread_status = [False, False]
-    __RELATIVE_YPR = [-39.4, -4.7, 3.59]  # This is the relative value between two MPU6050
+    bias = [0, 0]
     base_update_thread = None
     update_thread = None
 
@@ -75,7 +75,10 @@ class Orientation:
         if not self.__ypr[0]:
             return (0, 0, 0)
         base_ypr = [self.__ypr[0]['yaw'], self.__ypr[0]['pitch'], self.__ypr[0]['roll']]
-        base_ypr = map(lambda x: int(x*180/math.pi), base_ypr)
+        base_ypr = map(lambda x: x*180/math.pi, base_ypr)
+        
+        # Fix bias
+        base_ypr[0] -= self.bias[0]
         return base_ypr
 
     def get_ypr(self):
@@ -85,10 +88,12 @@ class Orientation:
         if not self.__ypr[1]:
             return (0, 0, 0)
         ypr = [self.__ypr[1]['yaw'], self.__ypr[1]['pitch'], self.__ypr[1]['roll']]
-        ypr = map(lambda x: int(x*180/math.pi), ypr)
+        ypr = map(lambda x: x*180/math.pi, ypr)
+
+        ypr[0] -= self.bias[1]
         return ypr
 
-    def get_orientation(self):
+    def get_orientation(self, lock=True):
         """
         Get orientation based on the base MPU6050 sensor.
         e.g. for yaw:
@@ -106,11 +111,11 @@ class Orientation:
         """
         base_ypr = self.get_base_ypr()
         ypr = self.get_ypr()
-        ot = map(lambda i: int(ypr[i]-base_ypr[i]+self.__RELATIVE_YPR[i]), xrange(3))
+        ot = map(lambda i: ypr[i]-base_ypr[i], xrange(3))
         for i in xrange(3):
-            if ot[i] < -90:
+            if ot[i] < -90 and lock:
                 ot[i] = -90
-            elif ot[i] > 90:
+            elif ot[i] > 90 and lock:
                 ot[i] = 90
         return tuple(ot)
 

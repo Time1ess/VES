@@ -3,53 +3,59 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-07 23:24
+# Last modified: 2016-04-08 06:52
 # Filename: system.py
 # Description:
 __metaclass__ = type
+import socket
+import select
+import time
+import re
+import os
+import sys
+import random
+from multiprocessing import Process
+
 from motor import Motor
 from orientation import Orientation
 from vffmpeg import VFFmpeg
 from utils import OrientationToMotorPulse
-import socket
-import select
-import re
-import os
-import sys
-from multiprocessing import Process
 
 sys.path.append('..')
 from const import *
 
-threshold = 400.0
+threshold = 3.0
+count_down = 20
 
 
 def pos_valid(ot, m):
     status = [False, False]
-    video_ori = ot.get_orientation()
-    print '[INITIALIZATION ORIENTATION]', video_ori
-    if video_ori[0] > threshold:
+    time.sleep(0.05)
+    mpu0 = ot.get_base_ypr()
+    mpu1 = ot.get_ypr()
+    print mpu0, mpu1
+    if (mpu1[0]+mpu0[0]) > threshold:
         m.adjust(0, False)
         print 'ADJUST motor 0 backward'
         return False
-    elif video_ori[0] < -threshold:
+    elif (mpu1[0]+mpu0[0]) < -threshold:
         m.adjust(0, True)
         print 'ADJUST motor 0 forward'
         return False
     else:
         status[0] = True
-    if video_ori[1] > threshold:
-        m.adjust(1, False)
-        print 'ADJUST motor 1 backward'
-        return False
-    elif video_ori[1] < -threshold:
+    if (mpu1[1]-mpu0[1]) > threshold:
         m.adjust(1, True)
         print 'ADJUST motor 1 forward'
+        return False
+    elif (mpu1[1]-mpu0[1]) < -threshold:
+        m.adjust(1, False)
+        print 'ADJUST motor 1 backward'
         return False
     else:
         status[1] = True
     if status[0] and status[1]:
-        print 'VALID POSITION DETECTED.', video_ori
+        print 'VALID POSITION DETECTED.', mpu0, mpu1
         return True
     return False
 
@@ -64,7 +70,7 @@ def parse_message(msg):
         data = map(lambda x: int(float(x)), data)
         return data
     except Exception,e:
-        print '[PARSE ERROR]',e
+        print '[PARSE ERROR]', e
         return None
 
 
@@ -83,12 +89,17 @@ def ffmpeg_process(v):
 m = None
 ot = None
 vp = None
+ss = None
 
 def main():
     global m
     global ot
     global vp
+    global ss
+    global count_down
     v = None
+    count_start = None
+
 
     broad_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     broad_sock.bind(('', PORT_TO_BROADCAST))
@@ -110,25 +121,51 @@ def main():
     sr.bind(('', PORT_TO_VIDEO))
     sr.listen(1)
     md, addr = sr.accept()
-    
+
     print 'Start to instantiate classes.'
     while True:
         try:
             m = Motor() if not m else m
             ot = Orientation() if not ot else ot
+            if not count_start:
+                count_start = time.time()
             v = VFFmpeg(host) if not v else v
             if m and ot and v:
+#            if m and ot:
                 break
         except Exception, e:
             print '[FATAL ERROR]', e
             exit(-1)
-
-    while True:
-        if pos_valid(ot, m):
-            break
+   
 
     vp = Process(target=ffmpeg_process, args=(v,))
     vp.start()
+
+    print 'Waiting for clear bias.'
+    while True:
+        count_end = time.time()
+        if (count_end-count_start) >= count_down:
+            break
+        print 'Position checking in %d second(s).' % (count_down-count_end+count_start)
+        time.sleep(1)
+    ot.bias[0] = ot.get_base_ypr()[0]
+    ot.bias[1] = ot.get_ypr()[0]
+#    print 'Begin to check position.'
+#    while True:
+#        if pos_valid(ot, m):
+#            break
+#    raw_input()
+
+#    num1 = random.randint(50,70)
+#    num2 = random.randint(-70,-50)
+#    print 'Set 0 to %d' % num1
+#    m.set_target(num1, 0)
+#    print 'Set 1 to %d' % num2
+#    m.set_target(num2, 1)
+#    time.sleep(8)
+#    raise Exception()
+
+
 
     print 'Start main loop.'
     while True:
@@ -144,16 +181,16 @@ def main():
             if r is md:
                 if disconnected:
                     print 'Middleware system disconnected.'
-                    break
+                    raise Exception('Middleware system disconnected.')
                 else:
                     display_ori = parse_message(msg)
                     pulse = OrientationToMotorPulse(display_ori, video_ori)
-                    # print '[Pulse set] ',
-                    # print 'display:', display_ori, '\t',
-                    # print 'video:', video_ori, '\t',
-                    # print 'pulse:', pulse
-                    # m.set_target(pulse[0], 0)
-                    # m.set_target(pulse[1], 1)
+                    print '[Pulse set] ',
+                    print 'display:', display_ori, '\t',
+                    print 'video:', video_ori, '\t',
+                    print 'pulse:', pulse
+                    m.set_target(pulse[0], 0)
+                    m.set_target(pulse[1], 1)
         ss.send(str(video_ori))
     m.exit()
     vp.terminate()
@@ -166,6 +203,11 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         print 'EXIT SIGNAL DETECTED.'
+        if ss:
+            ss.close()
+        while True:
+            if pos_valid(ot, m):
+                break
         if m:
             m.exit()
         if ot:
@@ -177,6 +219,11 @@ if __name__ == '__main__':
             vp.join()
     except Exception, e:
         print '[FATAL ERROR]', e
+        if ss:
+            ss.close()
+        while True:
+            if pos_valid(ot, m):
+                break
         if m:
             m.exit()
         if ot:
