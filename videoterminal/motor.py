@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-13 15:03
+# Last modified: 2016-04-07 17:26
 # Filename: motor.py
 # Description:
 __metaclass__ = type
@@ -64,7 +64,6 @@ class Motor:
 
         GPIO.output(self.__enable_pin, 1)
 
-        print 'Start to create motor threads.'
         self.__threads[0] = threading.Thread(target=self.__M_thread, args=(0,))
         self.__threads[0].start()
         self.__threads_status[0] = True
