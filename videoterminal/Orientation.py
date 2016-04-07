@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 10:56
+# Last modified: 2016-04-07 11:01
 # Filename: Orientation.py
 # Description:
 __metaclass__ = type
@@ -44,6 +44,9 @@ class orientation:
         self.__thread_status = True
 
     def exit(self):
+        """
+        Set exit flag to True to terminate thread.
+        """
         self.__exit = True
         time.sleep(0.1)
         if self.__thread_status == False:
@@ -52,12 +55,26 @@ class orientation:
             print 'Orientation update thread still exists.'
 
     def get_base_ypr(self):
+        """
+        Get the ypr data of the base MPU6050 on Raspi.
+        """
         return self.__ypr[0]
 
     def get_ypr(self):
+        """
+        Get the ypr data of the MPU6050 on the camera.
+        """
         return self.__ypr[1]
 
     def get_orientation(self):
+        """
+        Get orientation based on the base MPU6050 sensor.
+        e.g. for yaw:
+            0 indicates face front
+            -90 indicates face left
+            90 indicated face right
+        """
+        # TODO: get orientation based on the two ypr data
         pass
 
     def __update_dmp(self):
