@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 15:24
+# Last modified: 2016-04-07 15:51
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -134,6 +134,7 @@ class Orientation:
                     fifoCount -= packetSize
                     time.sleep(0.03)
         except Exception,e:
+            self.__exit = True
             print '[FATAL ERROR] Error detected in orientation thread ',thread_num
             print e
 
@@ -142,13 +143,24 @@ class Orientation:
 
 def main():
     ot = Orientation()
+    now = time.time()
+    mmax = -1
+    delay = 0.01
+    cnt = 0
+    avg = 0
     try:
         while True:
+            last = now
+            now = time.time()
             data = ot.get_ypr()
-            print '[   YPR  ] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f' % tuple(data)
+            print '[   YPR  ] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f\t' % tuple(data),
             data = ot.get_base_ypr()
-            print '[BASE YPR] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f' % tuple(data)
-            time.sleep(0.05)
+            print '[BASE YPR] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f\t' % tuple(data),
+            mmax = now-last if now-last > mmax else mmax
+            cnt += 1
+            avg = (avg*(cnt-1)+now-last)/cnt
+            print '[DMP TIME] cost:%.5f\tmax:%.5f\tavg:%.5f' % (now-last-delay, mmax, avg)
+            time.sleep(delay)
     except KeyboardInterrupt,e:
         ot.exit()
         time.sleep(1)
