@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-06 09:14
+# Last modified: 2016-04-28 09:37
 # Filename: visual.py
 # Description:
 __metaclass__ = type
@@ -37,6 +37,7 @@ class Visualization:
         glEnable(GL_LIGHTING)
         glEnable(GL_LIGHT0)
         glLightfv(GL_LIGHT0, GL_AMBIENT, (0.2, 0.3, 0.3, 1.0))
+        print 'Visualization initialized.'
 
     def set_yp(self, display, video):
         """
@@ -121,6 +122,7 @@ class Visualization:
 
             try:
                 data = self.__data_queue.get(block=False)
+                print data
                 if self.__initialized:
                     self.set_yp(data[0], data[1])
                 else:

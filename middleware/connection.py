@@ -3,15 +3,17 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-15 15:37
+# Last modified: 2016-04-28 09:37
 # Filename: connection.py
 # Description:
 __metaclass__ = type
 import socket
 import select
 import re
-from const import PORT_TO_BROADCAST, PORT_FROM_DISPLAY
-from const import PORT_TO_VIDEO, PORT_FROM_VIDEO
+import sys
+
+sys.path.append('..')
+from const import *
 
 
 class Connection:
@@ -39,7 +41,7 @@ class Connection:
 
     def parse_data(self, data):
         if not data:
-            return None
+            return [INF, INF]
         try:
             data = re.match(r'\((.*?)\)', data)
             data = re.sub(r',', '', data.group(1))
@@ -47,7 +49,7 @@ class Connection:
             data = map(lambda x: float(x), data)
             return data[:2]
         except:
-            return None
+            return [INF, INF]
 
     def __init__(self):
         """
@@ -137,7 +139,6 @@ class Connection:
                         print 'Video terminal disconnected.'
                         self.__readys['video'] = None
                     else:
-                        # print 'Get message from video   terminal:', msg
                         data = self.parse_data(msg)
                         self.__data_queue.put([None, data])
                 elif r is self.__readys['display']:
@@ -145,7 +146,6 @@ class Connection:
                         print 'Display terminal disconnected.'
                         self.__readys['display'] = None
                     else:
-                        # print 'Get message from display terminal:', msg
                         data = self.parse_data(msg)
                         self.__data_queue.put([data, None])
                         self.__vt_g.send(repr(tuple(data)))
