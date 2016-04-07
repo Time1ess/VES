@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-07 18:12
+# Last modified: 2016-04-07 18:39
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -15,6 +15,7 @@ from utils import OrientationToMotorPulse
 import socket
 import select
 import re
+import os
 from multiprocessing import Process
 
 
@@ -73,7 +74,7 @@ def Check_Identity(data):
 
 
 def ffmpeg_process(v):
-    # v.start()
+    v.start()
     print 'FFmpeg process terminated.'
     return 0
 
@@ -113,8 +114,8 @@ def main():
         try:
             m = Motor() if not m else m
             ot = Orientation() if not ot else ot
-            # v = VFFmpeg(host) if not v else v
-            if m and ot and not v:
+            v = VFFmpeg(host) if not v else v
+            if m and ot and v:
                 break
         except Exception, e:
             print '[FATAL ERROR]', e
@@ -124,8 +125,8 @@ def main():
         if pos_valid(ot, m):
             break
 
-    # vp = Process(target=ffmpeg_process, args=(v))
-    # vp.start()
+    vp = Process(target=ffmpeg_process, args=(v,))
+    vp.start()
 
     print 'Start main loop.'
     while True:
@@ -145,10 +146,10 @@ def main():
                 else:
                     display_ori = parse_message(msg)
                     pulse = OrientationToMotorPulse(display_ori, video_ori)
-                    print '[Pulse set] ',
-                    print 'display:', display_ori, '\t',
-                    print 'video:', video_ori, '\t',
-                    print 'pulse:', pulse
+                    # print '[Pulse set] ',
+                    # print 'display:', display_ori, '\t',
+                    # print 'video:', video_ori, '\t',
+                    # print 'pulse:', pulse
                     # m.set_target(pulse[0], 0)
                     # m.set_target(pulse[1], 1)
         ss.send(str(video_ori))
@@ -169,6 +170,8 @@ if __name__ == '__main__':
             ot.exit()
         if vp:
             vp.terminate()
+            os.system('sudo killall -9 raspivid')
+            os.system('sudo killall -9 ffmpeg')
             vp.join()
     except Exception, e:
         print '[FATAL ERROR]', e
@@ -178,6 +181,8 @@ if __name__ == '__main__':
             ot.exit()
         if vp:
             vp.terminate()
+            os.system('sudo killall -9 raspivid')
+            os.system('sudo killall -9 ffmpeg')
             vp.join()
     finally:
         pass

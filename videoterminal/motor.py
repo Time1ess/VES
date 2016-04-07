@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-07 17:26
+# Last modified: 2016-04-07 19:06
 # Filename: motor.py
 # Description:
 __metaclass__ = type

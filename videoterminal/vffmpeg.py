@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:24
-# Last modified: 2016-04-11 10:07
+# Last modified: 2016-04-07 18:36
 # Filename: vffmpeg.py
 # Description:
 __metaclass_ = type
@@ -20,7 +20,7 @@ class VFFmpeg:
     """
 
     def __init__(self, ip):
-        self.__cmd = "raspvid -t 0 -w 1280 -h 720 -b 5000000 -vf -o - |"
+        self.__cmd = "raspivid -t 0 -w 1280 -h 720 -b 5000000 -vf -o - |"
         self.__cmd += "ffmpeg -i - -vcodec copy -f mpegts udp://"
         self.__cmd += ip + ":" + str(PORT_TO_REDIRECT)
 
