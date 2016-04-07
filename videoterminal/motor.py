@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-06 17:03
+# Last modified: 2016-04-07 09:44
 # Filename: motor.py
 # Description:
 __metaclass__ = type
@@ -193,6 +193,7 @@ def main(m):
             m.set_target(target[1], 1)
             time.sleep(0.1)
     except KeyboardInterrupt:
+        m.exit()
         raise Exception("KeyboardInterrupt")
 
 if __name__ == '__main__':
@@ -200,7 +201,6 @@ if __name__ == '__main__':
     try:
         main(m)
     except Exception,e:
-        m.exit()
-        print 'Err:',e
+        print 'Error:',e
         print 'All exit.'
 
