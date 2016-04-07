@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 11:01
+# Last modified: 2016-04-07 11:32
 # Filename: Orientation.py
 # Description:
 __metaclass__ = type
@@ -12,9 +12,9 @@ import time
 from threading import Thread
 
 
-class orientation:
+class Orientation:
     """
-    A instance of orientation class will handle a thread to get orientation
+    A instance of Orientation class will handle a thread to get orientation
     data continuously and calculate the current orientation of the camera
     (relative to a base mpu).
     """
