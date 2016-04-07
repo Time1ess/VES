@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-07 18:39
+# Last modified: 2016-04-07 22:40
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -19,7 +19,7 @@ import os
 from multiprocessing import Process
 
 
-threshold = 2.0
+threshold = 400.0
 
 
 def pos_valid(ot, m):
