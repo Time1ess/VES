@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 09:23
-# Last modified: 2016-04-11 09:49
+# Last modified: 2016-04-15 15:48
 # Filename: ffmpeg.py
 # Description:
 __metaclass__ = type
@@ -24,13 +24,11 @@ class FFmpeg:
             self.__cmd = "ffmpeg -i udp://" \
             + my_ip + ":" + str(PORT_TO_REDIRECT) + \
             """ -c:v libx264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p \
-            -x264opts crf=20:vbv-maxrate=3000:vbv-bufsize=100:\
-            intra-refresh=1:slice-max-size=1500:keyint=30:ref=1 \
-            """ + "-f mpegts udp://" + \
+            -x264opts crf=20:vbv-maxrate=3000:vbv-bufsize=100:intra-refresh=1:slice-max-size=1500:keyint=30:ref=1""" + " -f mpegts udp://" + \
             receiver_ip + ":" + str(PORT_TO_DISPLAY)
         else:
             self.__cmd = """ffmpeg \
-            -f avfoundation -i "1" -s 1280*720 -r 30 \
+            -f qtkit -i "0" -s 1280*720 -r 30 \
             -c:v libx264 -preset veryfast -tune zerolatency -pix_fmt yuv420p \
             -x264opts crf=20:vbv-maxrate=3000:vbv-bufsize=100:intra-refresh=1:slice-max-size=1500:keyint=30:ref=1 """ + "-f mpegts udp://" + \
             receiver_ip + ":" + str(PORT_TO_DISPLAY)
@@ -39,4 +37,5 @@ class FFmpeg:
         """
         Block to send video stream data.
         """
+        print "[FFMPEG COMMAND] ",self.__cmd
         os.system(self.__cmd)

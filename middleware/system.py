@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:29
-# Last modified: 2016-04-13 16:16
+# Last modified: 2016-04-15 15:32
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -42,7 +42,7 @@ def connection_thread(data_queue, msg_queue):
 
 
 def ffmpeg_process(ip):
-    ff = FFmpeg("0.0.0.0", con.dt_addr[0], False)
+    ff = FFmpeg("0.0.0.0", con.dt_addr[0], True)
     ff.start()
     print 'FFmpeg process terminated.'
     return 0
