@@ -3,13 +3,16 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-08 14:54
+# Last modified: 2016-04-07 15:24
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
 import mpu6050
 import time
+import math
 from threading import Thread
+import RPi.GPIO as GPIO
+import os
 
 
 class Orientation:
@@ -22,11 +25,15 @@ class Orientation:
     __mpu = None
     __exit = False
     __ypr = [None, None]
-    __thread_status = False
+    __thread_status = [False, False]
     __RELATIVE_YPR = None  # This is the relative value between two MPU6050
+    base_update_thread = None
     update_thread = None
 
-    def __init__(self, base_addr=None, addr=None):
+
+    def __init__(self, base_addr=0x68, addr=0x69):
+
+        print 'Orientation Instance Initializing...'
         self.__base_mpu = mpu6050.MPU6050(base_addr)
         self.__mpu = mpu6050.MPU6050(addr)
 
@@ -40,17 +47,23 @@ class Orientation:
         self.__packet_size[0] = self.__base_mpu.dmpGetFIFOPacketSize()
         self.__packet_size[1] = self.__mpu.dmpGetFIFOPacketSize()
 
-        update_thread = Thread(target=self.__update_dmp)
+        base_update_thread = Thread(target=self.__update_dmp, args=(self.__base_mpu,
+            self.__packet_size[0], 0))
+        update_thread = Thread(target=self.__update_dmp,args=(self.__mpu,
+            self.__packet_size[1], 1))
+        print 'Orientation Instance Initialized...'
         update_thread.start()
-        self.__thread_status = True
+        self.__thread_status[1] = True
+        base_update_thread.start()
+        self.__thread_status[0] = True
 
     def exit(self):
         """
         Set exit flag to True to terminate thread.
         """
         self.__exit = True
-        time.sleep(0.1)
-        if self.__thread_status is False:
+        time.sleep(0.5)
+        if self.__thread_status[0] is False and self.__thread_status[1] is False:
             print 'Orientation update thread terminated.'
         else:
             print 'Orientation update thread still exists.'
@@ -59,13 +72,21 @@ class Orientation:
         """
         Get the ypr data of the base MPU6050 on Raspi.
         """
-        return self.__ypr[0]
+        if not self.__ypr[0]:
+            return (0, 0, 0)
+        base_ypr = [self.__ypr[0]['yaw'], self.__ypr[0]['pitch'], self.__ypr[0]['roll']]
+        base_ypr = map(lambda x: x*180/math.pi, base_ypr)
+        return base_ypr
 
     def get_ypr(self):
         """
         Get the ypr data of the MPU6050 on the camera.
         """
-        return self.__ypr[1]
+        if not self.__ypr[1]:
+            return (0, 0, 0)
+        ypr = [self.__ypr[1]['yaw'], self.__ypr[1]['pitch'], self.__ypr[1]['roll']]
+        ypr = map(lambda x: x*180/math.pi, ypr)
+        return ypr
 
     def get_orientation(self):
         """
@@ -92,43 +113,53 @@ class Orientation:
                 ot[i] = 90
         return ot
 
-    def __update_dmp(self):
+    def __update_dmp(self, mpu, packetSize, thread_num):
+        try:
+            while True:
+                if self.__exit:
+                    break
+                # Get status
+                status = mpu.getIntStatus()
+                if status >= 2:
+                    fifoCount = mpu.getFIFOCount()
+                    if fifoCount == 1024:
+                        mpu.resetFIFO()
+                    fifoCount = mpu.getFIFOCount()
+                    while fifoCount < packetSize:
+                        fifoCount = mpu.getFIFOCount()
+                    result = mpu.getFIFOBytes(packetSize)
+                    q = mpu.dmpGetQuaternion(result)
+                    g = mpu.dmpGetGravity(q)
+                    self.__ypr[thread_num] = mpu.dmpGetYawPitchRoll(q, g)
+                    fifoCount -= packetSize
+                    time.sleep(0.03)
+        except Exception,e:
+            print '[FATAL ERROR] Error detected in orientation thread ',thread_num
+            print e
+
+        self.__thread_status[thread_num] = False
+        print 'Orientation thread ',thread_num,' terminated.'
+
+def main():
+    ot = Orientation()
+    try:
         while True:
-            if self.__exit:
-                break
-            # Get status
-            status = [self.__base_mpu.getIntStatus(), self.__mpu.getIntStatus()]
-            # check DMP data ready interrupt
-            if status[0] >= 2 and status[1] >= 2:
-                # get current FIFO count
-                fifocounts = [self.__base_mpu.getFIFOCount(), self.__mpu.getFIFOCount()]
-                # check overflow
-                if fifocounts[0] == 1024:
-                    self.__base_mpu.resetFIFO()
-                    print 'Base MPU FIFO overflow!'
-                if fifocounts[1] == 1024:
-                    self.__mpu.resetFIFO()
-                    print 'MPU FIFO overflow!'
+            data = ot.get_ypr()
+            print '[   YPR  ] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f' % tuple(data)
+            data = ot.get_base_ypr()
+            print '[BASE YPR] yaw:%5.2f\tpitch:%5.2f\troll:%5.2f' % tuple(data)
+            time.sleep(0.05)
+    except KeyboardInterrupt,e:
+        ot.exit()
+        time.sleep(1)
+    except Exception,e:
+        print e
+        ot.exit()
+        time.sleep(1)
+    print 'over'
 
-                # wait for correct available data length,
-                fifocounts = [self.__base_mpu.getFIFOCount(), self.__mpu.getFIFOCount()]
-                while fifocounts[0] < self.__packet_size[0]:
-                    fifocounts[0] = self.__base_mpu.getFIFOCount()
-                while fifocounts[1] < self.__packet_size[1]:
-                    fifocounts[1] = self.__mpu.getFIFOCount()
-
-                result = [None, None]
-                result[0] = self.__base_mpu.getFIFOBytes(self.__packet_size[0])
-                result[1] = self.__mpu.getFIFOBytes(self.__packet_size[1])
-
-                quaternion = [None, None]
-                quaternion[0] = self.__base_mpu.dmpGetQuaternion(result[0])
-                quaternion[1] = self.__mpu.dmpGetQuaternion(result[1])
-
-                gravity = [None, None]
-                gravity[0] = self.__base_mpu.dmpGetGravity(quaternion[0])
-                gravity[1] = self.__mpu.dmpGetGravity(quaternion[1])
-
-                self.__ypr[0] = self.__base_mpu.dmpGetYawPitchRoll(quaternion[0], gravity[0])
-                self.__ypr[1] = self.__mpu.dmpGetYawPitchRoll(quaternion[1], gravity[1])
-        self.__thread_status = False
+if __name__ == '__main__':
+    try:
+        main()
+    except Exception,e:
+        print e
