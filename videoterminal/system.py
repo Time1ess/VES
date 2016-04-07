@@ -3,21 +3,23 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-07 22:40
+# Last modified: 2016-04-07 23:24
 # Filename: system.py
 # Description:
 __metaclass__ = type
 from motor import Motor
 from orientation import Orientation
 from vffmpeg import VFFmpeg
-from const import PORT_FROM_VIDEO, PORT_TO_BROADCAST, PORT_TO_VIDEO
 from utils import OrientationToMotorPulse
 import socket
 import select
 import re
 import os
+import sys
 from multiprocessing import Process
 
+sys.path.append('..')
+from const import *
 
 threshold = 400.0
 

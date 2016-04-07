@@ -3,12 +3,15 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:24
-# Last modified: 2016-04-07 18:36
+# Last modified: 2016-04-07 23:24
 # Filename: vffmpeg.py
 # Description:
 __metaclass_ = type
 import os
-from const import PORT_TO_REDIRECT
+import sys
+
+sys.path.append('..')
+from const import *
 
 
 class VFFmpeg:
