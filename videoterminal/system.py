@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-10 09:34
+# Last modified: 2016-04-10 09:49
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -17,7 +17,28 @@ import select
 from multiprocessing import Process
 
 
-# global variables
+threshold = 3.0
+
+
+def pos_valid(ot, m):
+    status = [False, False]
+    video_ori = ot.get_orientation()
+    if video_ori[0] > threshold:
+        m.adjust(0, False)
+    elif video_ori < -threshold:
+        m.adjust(0, True)
+    else:
+        status[0] = True
+    if video_ori[1] > threshold:
+        m.adjust(1, False)
+    elif video_ori[1] < -threshold:
+        m.adjust(1, True)
+    else:
+        status[1] = True
+    if status[0] and status[1]:
+        return True
+    return False
+
 
 def parse_message(msg):
     pass
@@ -61,6 +82,11 @@ def main():
                 break
         except Exception, e:
             print '[FATAL ERROR]', e
+
+    # TODO: adjust the video terminal to base orientation(0,0)
+    while True:
+        if pos_valid(ot, m):
+            break
 
     vp = Process(target=ffmpeg_process, args=(v))
     vp.start()
