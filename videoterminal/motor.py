@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-07 09:44
+# Last modified: 2016-04-08 13:57
 # Filename: motor.py
 # Description:
 __metaclass__ = type
@@ -146,6 +146,15 @@ class Motor:
         print 'M2 thread terminated.'
         self.__threads_status[1] = False
 
+    def adjust(self, index, forward):
+        """
+        Rotate the motor to make Orientation to be (0, 0).
+        Warning: Only use this in initialize the orientation.
+        """
+        if forward:
+            self.__forward(index)
+        else:
+            self.__backward(index)
 
     def __setStep_1(self, w1, w2, w3, w4):
         GPIO.output(self.__M1_I1_pin, w1)
@@ -153,7 +162,7 @@ class Motor:
         GPIO.output(self.__M1_I3_pin, w3)
         GPIO.output(self.__M1_I4_pin, w4)
 
-    def __setStep_2(self, w1, w2, w3 ,w4):
+    def __setStep_2(self, w1, w2, w3, w4):
         GPIO.output(self.__M2_I1_pin, w1)
         GPIO.output(self.__M2_I2_pin, w2)
         GPIO.output(self.__M2_I3_pin, w3)

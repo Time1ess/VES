@@ -3,8 +3,8 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 11:32
-# Filename: Orientation.py
+# Last modified: 2016-04-08 14:54
+# Filename: orientation.py
 # Description:
 __metaclass__ = type
 import mpu6050
@@ -23,6 +23,7 @@ class Orientation:
     __exit = False
     __ypr = [None, None]
     __thread_status = False
+    __RELATIVE_YPR = None  # This is the relative value between two MPU6050
     update_thread = None
 
     def __init__(self, base_addr=None, addr=None):
@@ -49,7 +50,7 @@ class Orientation:
         """
         self.__exit = True
         time.sleep(0.1)
-        if self.__thread_status == False:
+        if self.__thread_status is False:
             print 'Orientation update thread terminated.'
         else:
             print 'Orientation update thread still exists.'
@@ -73,9 +74,23 @@ class Orientation:
             0 indicates face front
             -90 indicates face left
             90 indicated face right
+        Notice:
+            The difference between MPU0 and MPU1 can be described as (Y,P,R)
+        when orientation of MPU0 is o_1b and orientation of MPU1 is o_2b for
+        a base position. Then, although yaw is a relative value every time we
+        start the system, MPU0 is always in the fixed position to the whole
+        system, so we can use o_1b`(base orientation of MPU0 in the current
+        session) + (Y,P,R) to get the o_2b`(base orientation of MPU1 in the
+        current session).
         """
-        # TODO: get orientation based on the two ypr data
-        pass
+        self.__mpu_base = self.__base_mpu + self.__RELATIVE_YPR
+        ot = map(lambda i: self.__mpu[i]-self.__mpu_base[i], xrange(3))
+        for i in xrange(3):
+            if ot[i] < -90:
+                ot[i] = -90
+            elif ot[i] > 90:
+                ot[i] = 90
+        return ot
 
     def __update_dmp(self):
         while True:
