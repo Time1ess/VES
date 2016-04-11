@@ -3,15 +3,15 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-08 15:17
+# Last modified: 2016-04-11 10:00
 # Filename: connection.py
 # Description:
 __metaclass__ = type
 import socket
 import select
 import re
-from const import MIDDLEWARE_PORT_BROAD, DISPLAY_PORT_RECEIVE
-from const import VIDEO_PORT_SEND, VIDEO_PORT_RECEIVE
+from const import PORT_TO_BROADCAST, PORT_FROM_DISPLAY
+from const import PORT_TO_VIDEO, PORT_FROM_VIDEO
 
 
 class Connection:
@@ -19,24 +19,20 @@ class Connection:
     class Connection is for broadcasting msg to get terminals connected.
     port usage:
         __broad_port = 8089
-        __video_port_g = 8090
-        __video_port_s = 8091
-        __display_port_g = 8092
+        __vp_g = 8090
+        __vp_s = 8091
+        __dp_g = 8092
     """
     __broad_host = '<broadcast>'
-    __broad_port = MIDDLEWARE_PORT_BROAD
-    __broad_addr = (__broad_host, __broad_port)
+    __broad_addr = (__broad_host, PORT_TO_BROADCAST)
     __host = ''
-    __video_port_g = VIDEO_PORT_RECEIVE
-    __video_port_s = VIDEO_PORT_SEND
-    __display_port_g = DISPLAY_PORT_RECEIVE
     __exit = False
     __v_yp = [0, 0]
     __d_yp = [0, 0]
     __data_queue = None
     __msg_queue = None
-    video_terminal_addr = None
-    display_terminal_addr = None
+    vt_addr = None
+    dt_addr = None
 
     def get_yw_data(self):
         return (self.__v_yp, self.__d_yp)
@@ -58,24 +54,26 @@ class Connection:
         Set up broadcast socket, video terminal socket, display terminal socket
         """
         # Set up broadcast socket
-        self.__broad_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.__broad_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        self.__broad_sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-        self.__broad_sock.bind(('', 0))
+        self.__broad = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        self.__broad.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        self.__broad.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+        self.__broad.bind(('', 0))
 
         # Prepare video terminal socket
         print 'Prepare video terminal socket.'
-        self.__video_terminal = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.__video_terminal.bind((self.__host, self.__video_port_g))
-        self.__video_terminal.listen(1)
+        self.__vt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.__vt.bind((self.__host, PORT_FROM_VIDEO))
+        self.__vt.listen(1)
+
+        self.__vt_g = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
         # Prepare display terminal socket
         print 'Prepare display terminal socket.'
-        self.__display_terminal = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.__display_terminal.bind((self.__host, self.__display_port_g))
-        self.__display_terminal.listen(1)
+        self.__dt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.__dt.bind((self.__host, PORT_FROM_DISPLAY))
+        self.__dt.listen(1)
 
-        self.__waits = [self.__video_terminal, self.__display_terminal]
+        self.__waits = [self.__vt, self.__dt]
         self.__readys = {}
         self.__readys['display'] = None
         self.__readys['video'] = None
@@ -88,18 +86,19 @@ class Connection:
         while True:
             if self.__readys['display'] and self.__readys['video']:
                 break
-            self.__broad_sock.sendto("VES", self.__broad_addr)
+            self.__broad.sendto("VES", self.__broad_addr)
             rs, ws, es = select.select(self.__waits, [], [], 3)
             for r in rs:
-                if r is self.__video_terminal:
-                    client, addr = self.__video_terminal.accept()
+                if r is self.__vt:
+                    client, addr = self.__vt.accept()
                     print 'Video terminal get connection from', addr
-                    self.video_terminal_addr = addr
+                    self.vt_addr = addr
                     self.__readys['video'] = client
-                elif r is self.__display_terminal:
-                    client, addr = self.__display_terminal.accept()
+                    self.__vt_g.connect((addr[0], PORT_TO_VIDEO))
+                elif r is self.__dt:
+                    client, addr = self.__dt.accept()
                     print 'Display terminal get connection from', addr
-                    self.display_terminal_addr = addr
+                    self.dt_addr = addr
                     self.__readys['display'] = client
                 else:
                     print 'Unknown terminal.'
@@ -147,14 +146,15 @@ class Connection:
                     else:
                         # print 'Get message from display terminal:', msg
                         self.__data_queue.put([self.parse_data(msg), None])
+                        self.__vt_g.send(repr(tuple(self.parse_data(msg))))
 
     def __terminate(self):
         """
         Disconnect all links, and begin memory recovery.
         """
         # Memory recovery
-        self.__video_terminal.close()
-        self.__display_terminal.close()
+        self.__vt.close()
+        self.__dt.close()
 
     def set_exit(self, exit):
         self.__exit = exit

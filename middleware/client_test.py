@@ -3,15 +3,13 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 14:10
-# Last modified: 2016-04-04 16:25
+# Last modified: 2016-04-11 10:01
 # Filename: client_test.py
 # Description:
-#!/usr/bin/python
-# coding:utf-8
 import socket
 import time
-import uuid
 import sys
+import select
 from random import randint
 
 
@@ -40,12 +38,35 @@ port = 8090 if name == "v" else 8092
 
 ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # send socket
 ss.connect((host, port))
+
+client = None
+if name == "v":
+    sr = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sr.bind(('', 8091))
+    sr.listen(1)
+    client, addr = sr.accept()
+    print 'Get connected from middleware'
+disconnected = False
 while True:
+    if name == "v" and not disconnected:
+        rs, ws, es = select.select([client], [], [], 0.1)
+        for r in rs:
+            try:
+                msg = r.recv(4096)
+                disconnected = not msg
+            except:
+                disconnected = True
+
+            if r is client:
+                if disconnected:
+                    print 'Middleware system disconnectd.'
+                    break
+                else:
+                    print '[Middleware msg] ', msg
     try:
         msg = repr(tuple([randint(0, 360) for x in xrange(3)]))
         ss.send(msg)
-        print 'Send message:', msg
     except:
         print 'Socket close.'
         break
-    time.sleep(0.3)
+    time.sleep(0.1)

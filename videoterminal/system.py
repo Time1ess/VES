@@ -3,14 +3,14 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-10 09:49
+# Last modified: 2016-04-11 10:09
 # Filename: system.py
 # Description:
 __metaclass__ = type
 from motor import Motor
 from orientation import Orientation
 from vffmpeg import VFFmpeg
-from const import VIDEO_PORT_SEND, MIDDLEWARE_PORT_BROAD, VIDEO_PORT_RECEIVE
+from const import PORT_FROM_VIDEO, PORT_TO_BROADCAST, PORT_TO_VIDEO
 from utils import OrientationToMotorPulse
 import socket
 import select
@@ -41,6 +41,7 @@ def pos_valid(ot, m):
 
 
 def parse_message(msg):
+    print msg
     pass
 
 
@@ -61,8 +62,9 @@ def main():
     m = None
     ot = None
     v = None
+
     broad_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    broad_sock.bind(('', MIDDLEWARE_PORT_BROAD))
+    broad_sock.bind(('', PORT_TO_BROADCAST))
     data = None
     addr = None
     while True:
@@ -72,6 +74,14 @@ def main():
     broad_sock.close()
     host = addr[0]
     print 'Get broadcast message from host:', host
+
+    ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    ss.connect((host, PORT_FROM_VIDEO))
+
+    sr = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sr.bind(('', PORT_TO_VIDEO))
+    sr.listen(1)
+    md, addr = sr.accept()
 
     while True:
         try:
@@ -83,21 +93,16 @@ def main():
         except Exception, e:
             print '[FATAL ERROR]', e
 
-    # TODO: adjust the video terminal to base orientation(0,0)
     while True:
         if pos_valid(ot, m):
             break
 
     vp = Process(target=ffmpeg_process, args=(v))
     vp.start()
-    sr = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sr.bind(('', VIDEO_PORT_RECEIVE))
-    sr.listen(1)
 
-    ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    ss.connect((host, VIDEO_PORT_SEND))
     while True:
-        rs, ws, es = select.select([sr], [], [], 0.1)
+        video_ori = ot.get_orientation()
+        rs, ws, es = select.select([md], [], [], 0.1)
         for r in rs:
             try:
                 msg = r.recv(4096)
@@ -105,18 +110,18 @@ def main():
             except:
                 disconnected = True
 
-            if r is sr:
+            if r is md:
                 if disconnected:
                     print 'Middleware system disconnected.'
                     break
                 else:
                     display_ori = parse_message(msg)
-                    video_ori = ot.get_orientation()
                     pulse = OrientationToMotorPulse(display_ori, video_ori)
                     print '[Pulse set] %d' % pulse
                     # m.set_target(pulse[0], 0)
                     # m.set_target(pulse[1], 1)
         ss.send(repr(video_ori))
+    m.exit()
     vp.terminate()
     vp.join()
     sr.close()
