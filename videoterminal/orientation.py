@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 15:51
+# Last modified: 2016-04-13 14:57
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -26,7 +26,7 @@ class Orientation:
     __exit = False
     __ypr = [None, None]
     __thread_status = [False, False]
-    __RELATIVE_YPR = None  # This is the relative value between two MPU6050
+    __RELATIVE_YPR = [-39.4, -4.7, 3.59]  # This is the relative value between two MPU6050
     base_update_thread = None
     update_thread = None
 
@@ -104,8 +104,8 @@ class Orientation:
         session) + (Y,P,R) to get the o_2b`(base orientation of MPU1 in the
         current session).
         """
-        self.__mpu_base = self.__base_mpu + self.__RELATIVE_YPR
-        ot = map(lambda i: self.__mpu[i]-self.__mpu_base[i], xrange(3))
+        self.__base = map(lambda i: self.__base_mpu[i]+self.__RELATIVE_YPR[i], xrange(3))
+        ot = map(lambda i: self.__mpu[i]-self.__base[i], xrange(3))
         for i in xrange(3):
             if ot[i] < -90:
                 ot[i] = -90
