@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:29
-# Last modified: 2016-04-11 09:51
+# Last modified: 2016-04-13 16:16
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -63,6 +63,8 @@ def terminate():
     fp.terminate()
     fp.join()
     print 'Middleware System shutdown.'
+    os.system("sudo killall -9 ffmpeg")
+    os.system("sudo killall -9 python")
     exit(0)
 
 
@@ -93,8 +95,11 @@ def main():
 if __name__ == '__main__':
     try:
         main()
+    except KeyboardInterrupt:
+        print 'EXIT SIGNAL DETECTED.'
+        terminate()
     except Exception, e:
         print '[FATAL ERROR]', e
         terminate()
     finally:
-        terminate()
+        pass
