@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:30
-# Last modified: 2016-04-11 10:00
+# Last modified: 2016-04-13 14:47
 # Filename: connection.py
 # Description:
 __metaclass__ = type
@@ -138,15 +138,17 @@ class Connection:
                         self.__readys['video'] = None
                     else:
                         # print 'Get message from video   terminal:', msg
-                        self.__data_queue.put([None, self.parse_data(msg)])
+                        data = self.parse_data(msg)
+                        self.__data_queue.put([None, data])
                 elif r is self.__readys['display']:
                     if disconnected:
                         print 'Display terminal disconnected.'
                         self.__readys['display'] = None
                     else:
                         # print 'Get message from display terminal:', msg
-                        self.__data_queue.put([self.parse_data(msg), None])
-                        self.__vt_g.send(repr(tuple(self.parse_data(msg))))
+                        data = self.parse_data(msg)
+                        self.__data_queue.put([data, None])
+                        self.__vt_g.send(repr(tuple(data)))
 
     def __terminate(self):
         """

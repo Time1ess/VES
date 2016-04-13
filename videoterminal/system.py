@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-11 10:09
+# Last modified: 2016-04-13 14:48
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -14,6 +14,7 @@ from const import PORT_FROM_VIDEO, PORT_TO_BROADCAST, PORT_TO_VIDEO
 from utils import OrientationToMotorPulse
 import socket
 import select
+import re
 from multiprocessing import Process
 
 
@@ -41,8 +42,16 @@ def pos_valid(ot, m):
 
 
 def parse_message(msg):
-    print msg
-    pass
+    if not msg:
+        return None
+    try:
+        data = re.match(r'\((.*?)\)', msg)
+        data = re.sub(r',', '', data.group(1))
+        data = data.split(' ')
+        data = map(lambda x: float(x), data)
+        return data
+    except:
+        return None
 
 
 def Check_Identity(data):
@@ -87,18 +96,19 @@ def main():
         try:
             m = Motor() if not m else m
             ot = Orientation(base_addr=None, addr=None) if not ot else ot
-            v = VFFmpeg(host) if not v else v
-            if m and ot and v:
+            # v = VFFmpeg(host) if not v else v
+            if m and ot and not v:
                 break
         except Exception, e:
             print '[FATAL ERROR]', e
+            exit(-1)
 
     while True:
         if pos_valid(ot, m):
             break
 
-    vp = Process(target=ffmpeg_process, args=(v))
-    vp.start()
+    # vp = Process(target=ffmpeg_process, args=(v))
+    # vp.start()
 
     while True:
         video_ori = ot.get_orientation()
@@ -117,7 +127,10 @@ def main():
                 else:
                     display_ori = parse_message(msg)
                     pulse = OrientationToMotorPulse(display_ori, video_ori)
-                    print '[Pulse set] %d' % pulse
+                    print '[Pulse set] ',
+                    print 'display:', display_ori, '\t',
+                    print 'video:', video_ori, '\t',
+                    print 'pulse:%d' % pulse
                     # m.set_target(pulse[0], 0)
                     # m.set_target(pulse[1], 1)
         ss.send(repr(video_ori))

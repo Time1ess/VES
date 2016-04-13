@@ -3,14 +3,13 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 14:13
-# Last modified: 2016-04-08 13:57
+# Last modified: 2016-04-13 14:35
 # Filename: motor.py
 # Description:
 __metaclass__ = type
 import RPi.GPIO as GPIO
 import threading
 import time
-import sys
 from random import randint
 
 
@@ -65,11 +64,11 @@ class Motor:
 
         GPIO.output(self.__enable_pin, 1)
 
-        self.__threads[0] = threading.Thread(target=self.__M1_thread)
+        self.__threads[0] = threading.Thread(target=self.__M_thread, args=(0,))
         self.__threads[0].start()
         self.__threads_status[0] = True
         print 'M1 thread created.'
-        self.__threads[1] = threading.Thread(target=self.__M2_thread)
+        self.__threads[1] = threading.Thread(target=self.__M_thread, args=(1,))
         self.__threads[1].start()
         self.__threads_status[1] = True
         print 'M2 thread created.'
@@ -104,47 +103,26 @@ class Motor:
         setStep(1, 0, 1, 0)
         time.sleep(delay)
 
-    def __M1_thread(self):
-        current = self.__current_pos[0]
-        last_target = -1
+    def __M_thread(self, index):
+        current = self.__current_pos[index]
+        last_target = 0
         while True:
             if self.__exit:
                 break
-            target = self.__target_pos[0]
+            target = self.__target_pos[index]
             if last_target != target:
                 last_target = target
-                print '[M1]\t', current, '\t', target
+                print '[M%d]\t' % index, current, '\t', target
             if target == current:
                 time.sleep(0.02)
             elif target > current:
-                self.__forward(0)
+                self.__forward(index)
                 current += 1
             else:
-                self.__backward(0)
+                self.__backward(index)
                 current -= 1
-        print 'M1 thread terminated.'
-        self.__threads_status[0] = False
-
-    def __M2_thread(self):
-        current = self.__current_pos[1]
-        last_target = -1
-        while True:
-            if self.__exit:
-                break
-            target = self.__target_pos[1]
-            if last_target != target:
-                last_target = target
-                print '[M2]\t', current, '\t', target
-            if target == current:
-                time.sleep(0.02)
-            elif target > current:
-                self.__forward(1)
-                current += 1
-            else:
-                self.__backward(1)
-                current -= 1
-        print 'M2 thread terminated.'
-        self.__threads_status[1] = False
+        print '[M%d] thread terminated.' % index
+        self.__threads_status[index] = False
 
     def adjust(self, index, forward):
         """
@@ -182,11 +160,10 @@ class Motor:
         """
         self.__exit = True
         time.sleep(0.1)
-        if reduce(lambda x,y :x or y, self.__threads_status) is False:
+        if reduce(lambda x, y: x or y, self.__threads_status) is False:
             print 'All motor threads terminated.'
         else:
             print 'Motor thread still exists.'
-
 
 
 def main(m):
@@ -209,7 +186,6 @@ if __name__ == '__main__':
     m = Motor()
     try:
         main(m)
-    except Exception,e:
-        print 'Error:',e
+    except Exception, e:
+        print 'Error:', e
         print 'All exit.'
-
