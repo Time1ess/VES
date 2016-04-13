@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 11:39
-# Last modified: 2016-04-13 14:48
+# Last modified: 2016-04-07 18:12
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -18,25 +18,35 @@ import re
 from multiprocessing import Process
 
 
-threshold = 3.0
+threshold = 2.0
 
 
 def pos_valid(ot, m):
     status = [False, False]
     video_ori = ot.get_orientation()
+    print '[INITIALIZATION ORIENTATION]', video_ori
     if video_ori[0] > threshold:
         m.adjust(0, False)
-    elif video_ori < -threshold:
+        print 'ADJUST motor 0 backward'
+        return False
+    elif video_ori[0] < -threshold:
         m.adjust(0, True)
+        print 'ADJUST motor 0 forward'
+        return False
     else:
         status[0] = True
     if video_ori[1] > threshold:
         m.adjust(1, False)
+        print 'ADJUST motor 1 backward'
+        return False
     elif video_ori[1] < -threshold:
         m.adjust(1, True)
+        print 'ADJUST motor 1 forward'
+        return False
     else:
         status[1] = True
     if status[0] and status[1]:
+        print 'VALID POSITION DETECTED.', video_ori
         return True
     return False
 
@@ -48,9 +58,10 @@ def parse_message(msg):
         data = re.match(r'\((.*?)\)', msg)
         data = re.sub(r',', '', data.group(1))
         data = data.split(' ')
-        data = map(lambda x: float(x), data)
+        data = map(lambda x: int(float(x)), data)
         return data
-    except:
+    except Exception,e:
+        print '[PARSE ERROR]',e
         return None
 
 
@@ -66,16 +77,21 @@ def ffmpeg_process(v):
     print 'FFmpeg process terminated.'
     return 0
 
+m = None
+ot = None
+vp = None
 
 def main():
-    m = None
-    ot = None
+    global m
+    global ot
+    global vp
     v = None
 
     broad_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     broad_sock.bind(('', PORT_TO_BROADCAST))
     data = None
     addr = None
+    print 'Wait for broadcast message.'
     while True:
         data, addr = broad_sock.recvfrom(4096)
         if Check_Identity(data) is True:
@@ -91,11 +107,12 @@ def main():
     sr.bind(('', PORT_TO_VIDEO))
     sr.listen(1)
     md, addr = sr.accept()
-
+    
+    print 'Start to instantiate classes.'
     while True:
         try:
             m = Motor() if not m else m
-            ot = Orientation(base_addr=None, addr=None) if not ot else ot
+            ot = Orientation() if not ot else ot
             # v = VFFmpeg(host) if not v else v
             if m and ot and not v:
                 break
@@ -110,6 +127,7 @@ def main():
     # vp = Process(target=ffmpeg_process, args=(v))
     # vp.start()
 
+    print 'Start main loop.'
     while True:
         video_ori = ot.get_orientation()
         rs, ws, es = select.select([md], [], [], 0.1)
@@ -130,10 +148,10 @@ def main():
                     print '[Pulse set] ',
                     print 'display:', display_ori, '\t',
                     print 'video:', video_ori, '\t',
-                    print 'pulse:%d' % pulse
+                    print 'pulse:', pulse
                     # m.set_target(pulse[0], 0)
                     # m.set_target(pulse[1], 1)
-        ss.send(repr(video_ori))
+        ss.send(str(video_ori))
     m.exit()
     vp.terminate()
     vp.join()
@@ -143,7 +161,23 @@ def main():
 if __name__ == '__main__':
     try:
         main()
+    except KeyboardInterrupt:
+        print 'EXIT SIGNAL DETECTED.'
+        if m:
+            m.exit()
+        if ot:
+            ot.exit()
+        if vp:
+            vp.terminate()
+            vp.join()
     except Exception, e:
         print '[FATAL ERROR]', e
+        if m:
+            m.exit()
+        if ot:
+            ot.exit()
+        if vp:
+            vp.terminate()
+            vp.join()
     finally:
         pass

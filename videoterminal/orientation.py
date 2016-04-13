@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-13 14:57
+# Last modified: 2016-04-07 18:11
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -75,7 +75,7 @@ class Orientation:
         if not self.__ypr[0]:
             return (0, 0, 0)
         base_ypr = [self.__ypr[0]['yaw'], self.__ypr[0]['pitch'], self.__ypr[0]['roll']]
-        base_ypr = map(lambda x: x*180/math.pi, base_ypr)
+        base_ypr = map(lambda x: int(x*180/math.pi), base_ypr)
         return base_ypr
 
     def get_ypr(self):
@@ -85,7 +85,7 @@ class Orientation:
         if not self.__ypr[1]:
             return (0, 0, 0)
         ypr = [self.__ypr[1]['yaw'], self.__ypr[1]['pitch'], self.__ypr[1]['roll']]
-        ypr = map(lambda x: x*180/math.pi, ypr)
+        ypr = map(lambda x: int(x*180/math.pi), ypr)
         return ypr
 
     def get_orientation(self):
@@ -104,8 +104,9 @@ class Orientation:
         session) + (Y,P,R) to get the o_2b`(base orientation of MPU1 in the
         current session).
         """
-        self.__base = map(lambda i: self.__base_mpu[i]+self.__RELATIVE_YPR[i], xrange(3))
-        ot = map(lambda i: self.__mpu[i]-self.__base[i], xrange(3))
+        base_ypr = self.get_base_ypr()
+        ypr = self.get_ypr()
+        ot = map(lambda i: int(ypr[i]-base_ypr[i]+self.__RELATIVE_YPR[i]), xrange(3))
         for i in xrange(3):
             if ot[i] < -90:
                 ot[i] = -90
