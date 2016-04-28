@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 22:41
+# Last modified: 2016-04-07 23:07
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -166,10 +166,9 @@ def main():
         ot.exit()
         time.sleep(1)
     except Exception,e:
-        print e
+        print '[FATAL ERROR] ', e
         ot.exit()
         time.sleep(1)
-    print 'over'
 
 if __name__ == '__main__':
     try:
