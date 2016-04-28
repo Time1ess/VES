@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-04 13:29
-# Last modified: 2016-04-15 15:32
+# Last modified: 2016-04-28 09:37
 # Filename: system.py
 # Description:
 __metaclass__ = type
@@ -25,7 +25,9 @@ con = None
 
 
 def visual_process(data_queue, msg_queue):
+    print 'Start initializing Visualization.'
     v = Visualization()
+    print 'Visual process started.'
     v.run(data_queue, msg_queue)
     print 'Visual process terminated.'
     return 0

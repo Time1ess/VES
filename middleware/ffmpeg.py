@@ -3,12 +3,15 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-06 09:23
-# Last modified: 2016-04-15 15:48
+# Last modified: 2016-04-28 09:37
 # Filename: ffmpeg.py
 # Description:
 __metaclass__ = type
 import os
-from const import PORT_TO_REDIRECT, PORT_TO_DISPLAY
+import sys
+
+sys.path.append('..')
+from const import *
 
 
 class FFmpeg:
