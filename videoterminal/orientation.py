@@ -3,7 +3,7 @@
 # Author: David
 # Email: youchen.du@gmail.com
 # Created: 2016-04-07 10:01
-# Last modified: 2016-04-07 18:11
+# Last modified: 2016-04-07 22:41
 # Filename: orientation.py
 # Description:
 __metaclass__ = type
@@ -112,7 +112,7 @@ class Orientation:
                 ot[i] = -90
             elif ot[i] > 90:
                 ot[i] = 90
-        return ot
+        return tuple(ot)
 
     def __update_dmp(self, mpu, packetSize, thread_num):
         try:
