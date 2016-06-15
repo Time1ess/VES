@@ -125,7 +125,7 @@ class Connection:
                 print 'Connection shutdown.'
                 break
             if not self.__readys['display'] or not self.__readys['video']:
-                self.broad_to_connect()
+                raise Exception("Lost connection")
             rs, ws, es = select.select(self.__readys.values(), [], [], 3)
             for r in rs:
                 try:

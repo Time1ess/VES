@@ -122,7 +122,6 @@ class Visualization:
 
             try:
                 data = self.__data_queue.get(block=False)
-                print data
                 if self.__initialized:
                     self.set_yp(data[0], data[1])
                 else:
